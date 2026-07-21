@@ -11,12 +11,12 @@ const context = await browser.newContext({ viewport: { width: 1536, height: 864 
 const page = await context.newPage();
 const pageErrors = [];
 page.on('pageerror', (error) => pageErrors.push(error.message));
-const drillGltfFixture = await readFile(new URL('./downloads/run-2026-07-21-0300/space-mining-drill/drill_structure.gltf', import.meta.url));
-const drillBinFixture = await readFile(new URL('./downloads/run-2026-07-21-0300/space-mining-drill/drill_structure.bin', import.meta.url));
-const drillTextureFixture = await readFile(new URL('./downloads/run-2026-07-21-0300/space-mining-drill/spacebits_texture.png', import.meta.url));
-await page.route('**/space-mining-drill/drill_structure.gltf', (route) => route.fulfill({ status: 200, contentType: 'model/gltf+json', body: drillGltfFixture }));
-await page.route('**/space-mining-drill/drill_structure.bin', (route) => route.fulfill({ status: 200, contentType: 'application/octet-stream', body: drillBinFixture }));
-await page.route('**/space-mining-drill/spacebits_texture.png', (route) => route.fulfill({ status: 200, contentType: 'image/png', body: drillTextureFixture }));
+const sedanGltfFixture = await readFile(new URL('./downloads/run-2026-07-21-1200/city-sedan/car_sedan.gltf', import.meta.url));
+const sedanBinFixture = await readFile(new URL('./downloads/run-2026-07-21-1200/city-sedan/car_sedan.bin', import.meta.url));
+const sedanTextureFixture = await readFile(new URL('./downloads/run-2026-07-21-1200/city-sedan/citybits_texture.png', import.meta.url));
+await page.route('**/city-sedan/car_sedan.gltf', (route) => route.fulfill({ status: 200, contentType: 'model/gltf+json', body: sedanGltfFixture }));
+await page.route('**/city-sedan/car_sedan.bin', (route) => route.fulfill({ status: 200, contentType: 'application/octet-stream', body: sedanBinFixture }));
+await page.route('**/city-sedan/citybits_texture.png', (route) => route.fulfill({ status: 200, contentType: 'image/png', body: sedanTextureFixture }));
 await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
 
 let appFrame;
@@ -33,13 +33,13 @@ for (let attempt = 0; attempt < 90; attempt += 1) {
 if (!appFrame) throw new Error('Magic app iframe did not become ready');
 
 const count = await appFrame.locator('[data-asset-id]').count();
-const chineseName = await appFrame.locator('[data-asset-id="space-mining-drill"] strong').textContent();
-await appFrame.locator('[data-asset-id="space-mining-drill"]').click();
+const chineseName = await appFrame.locator('[data-asset-id="city-sedan"] strong').textContent();
+await appFrame.locator('[data-asset-id="city-sedan"]').click();
 await appFrame.waitForFunction(() => {
   const name = document.querySelector('#detail-name')?.textContent?.trim();
   const meshes = document.querySelector('#meta-meshes')?.textContent?.trim();
   const source = document.querySelector('#viewer-source')?.textContent || '';
-  return name === '太空采矿钻机' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
+  return name === '城市轿车' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
 }, null, { timeout: 90000 });
 
 const result = await appFrame.evaluate(() => {
@@ -59,8 +59,8 @@ const result = await appFrame.evaluate(() => {
 });
 
 const failures = [];
-if (count !== 61) failures.push(`asset count ${count}`);
-if (chineseName?.trim() !== '太空采矿钻机') failures.push(`Chinese name ${chineseName}`);
+if (count !== 64) failures.push(`asset count ${count}`);
+if (chineseName?.trim() !== '城市轿车') failures.push(`Chinese name ${chineseName}`);
 if (result.documentScrollHeight !== result.viewportHeight) failures.push('online iframe document scrolls');
 if (!(result.listScrollHeight > result.listClientHeight)) failures.push('online list not independently scrollable');
 if (result.detailBottom > result.viewportHeight) failures.push('online detail below viewport');

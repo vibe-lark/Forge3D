@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastRun": "2026-07-21T10:42:14+08:00",
-  "totalAssets": 61,
+  "lastRun": "2026-07-21T12:13:08+08:00",
+  "totalAssets": 64,
   "runs": [
     {
       "startedAt": "2026-07-17T10:57:00+08:00",
@@ -2189,6 +2189,206 @@
         "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
         "status": "skipped_no_changes",
         "reason": "距上一轮完整发布约 4 分钟，代码、素材、TOS 文件和许可证据均未变化"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-21T12:02:04+08:00",
+      "completedAt": "2026-07-21T12:13:08+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+          "commitSha": "63976910ca04d16f0fc531b9c614244be8128713",
+          "assetLicense": "CC0-1.0"
+        },
+        {
+          "repo": "KayKit-Game-Assets/KayKit-Restaurant-Bits-1.0",
+          "commitSha": "153c8a7535b48237854cb54ff6890679f8c574d1",
+          "assetLicense": "CC0-1.0"
+        },
+        {
+          "repo": "KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0",
+          "commitSha": "6dfbcac9927d06283752c4defd4882cfe0d29666",
+          "assetLicense": "CC0-1.0"
+        },
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "5 个 Kenney CC0 候选合规，因本轮名额已满延后"
+        },
+        {
+          "repo": "google/filament",
+          "commitSha": "76637bcd2d326bf53586f5427b81f01b591d4159",
+          "result": "候选含 NC 或 Stanford 非商业限制，拒绝"
+        },
+        {
+          "repo": "BabylonJS/Assets",
+          "commitSha": "8be9384c7f8728cb45d27975ac92a412f97a98dd",
+          "result": "多个候选超过 25 MB；另一个材质兼容性不足"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "city-sedan",
+          "name": "城市轿车",
+          "nameEn": "City Sedan",
+          "category": "汽车",
+          "format": "glTF + BIN + PNG",
+          "path": "addons/kaykit_city_builder_bits/Assets/gltf/car_sedan.gltf",
+          "size": 86145,
+          "mainFileSize": 10928,
+          "dependencyFiles": [
+            { "path": "car_sedan.bin", "size": 55332 },
+            { "path": "citybits_texture.png", "size": 19885 }
+          ],
+          "repo": "KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+          "commitSha": "63976910ca04d16f0fc531b9c614244be8128713",
+          "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0/blob/63976910ca04d16f0fc531b9c614244be8128713/addons/kaykit_city_builder_bits/Assets/gltf/car_sedan.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0/63976910ca04d16f0fc531b9c614244be8128713/addons/kaykit_city_builder_bits/Assets/gltf/car_sedan.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-city-builder-bits-1.0/63976910ca04d16f0fc531b9c614244be8128713/city-sedan/car_sedan.gltf",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-city-builder-bits-1.0/63976910ca04d16f0fc531b9c614244be8128713/city-sedan/city-sedan-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0/blob/63976910ca04d16f0fc531b9c614244be8128713/LICENSE.txt",
+          "attribution": "Kay Lousberg / KayKit",
+          "riskNote": "无品牌低多边形轿车，不代表任何真实厂牌。"
+        },
+        {
+          "id": "freestanding-oven",
+          "name": "独立烤箱",
+          "nameEn": "Freestanding Oven",
+          "category": "数码",
+          "format": "glTF + BIN + PNG",
+          "path": "addons/kaykit_restaurant_bits/Assets/gltf/oven.gltf",
+          "size": 60708,
+          "mainFileSize": 5058,
+          "dependencyFiles": [
+            { "path": "oven.bin", "size": 34580 },
+            { "path": "restaurantbits_texture.png", "size": 21070 }
+          ],
+          "repo": "KayKit-Game-Assets/KayKit-Restaurant-Bits-1.0",
+          "commitSha": "153c8a7535b48237854cb54ff6890679f8c574d1",
+          "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Restaurant-Bits-1.0/blob/153c8a7535b48237854cb54ff6890679f8c574d1/addons/kaykit_restaurant_bits/Assets/gltf/oven.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Restaurant-Bits-1.0/153c8a7535b48237854cb54ff6890679f8c574d1/addons/kaykit_restaurant_bits/Assets/gltf/oven.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-restaurant-bits-1.0/153c8a7535b48237854cb54ff6890679f8c574d1/freestanding-oven/oven.gltf",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-restaurant-bits-1.0/153c8a7535b48237854cb54ff6890679f8c574d1/freestanding-oven/freestanding-oven-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KayKit-Game-Assets/KayKit-Restaurant-Bits-1.0/blob/153c8a7535b48237854cb54ff6890679f8c574d1/LICENSE.txt",
+          "attribution": "Kay Lousberg / KayKit",
+          "riskNote": "通用风格化家电，无文字、Logo 或品牌元素。"
+        },
+        {
+          "id": "tall-wind-turbine",
+          "name": "高塔风力发电机",
+          "nameEn": "Tall Wind Turbine",
+          "category": "机械",
+          "format": "glTF + BIN + PNG",
+          "path": "addons/kaykit_space_base_bits/Assets/gltf/windturbine_tall.gltf",
+          "size": 60821,
+          "mainFileSize": 5168,
+          "dependencyFiles": [
+            { "path": "windturbine_tall.bin", "size": 29904 },
+            { "path": "spacebits_texture.png", "size": 25749 }
+          ],
+          "repo": "KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0",
+          "commitSha": "6dfbcac9927d06283752c4defd4882cfe0d29666",
+          "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/blob/6dfbcac9927d06283752c4defd4882cfe0d29666/addons/kaykit_space_base_bits/Assets/gltf/windturbine_tall.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/addons/kaykit_space_base_bits/Assets/gltf/windturbine_tall.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-space-base-bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/tall-wind-turbine/windturbine_tall.gltf",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-space-base-bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/tall-wind-turbine/tall-wind-turbine-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/blob/6dfbcac9927d06283752c4defd4882cfe0d29666/LICENSE.txt",
+          "attribution": "Kay Lousberg / KayKit",
+          "riskNote": "通用低多边形工程设施，无文字、Logo 或品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "status": "tos_upload_failed",
+          "reason": "3 个分片上传成功，但 multipart complete 返回未登录或 token 无效；未写入未完成 URL"
+        }
+      ],
+      "skippedCandidates": [
+        { "name": "太空运输车、太阳能板", "reason": "合规，但本轮最多新增 3 个且优先跨类别多样性" },
+        { "name": "消防车、汽车传动总成、台式咖啡机、复古电视机、蒸汽机车", "reason": "Kenney CC0 镜像候选合规，本轮名额已满，留待后续" },
+        { "name": "BusterDrone", "reason": "CC Attribution-NonCommercial，不允许公开再分发用途" },
+        { "name": "Lucy", "reason": "Stanford 条款仅允许研究/免费镜像并禁止商业产品" },
+        { "name": "Babylon FlightHelmet", "reason": "54,913,288 B，超过 25 MB 建议上限" },
+        { "name": "Babylon GothicCloisterCorner mobile", "reason": "44,185,696 B，超过 25 MB 建议上限" },
+        { "name": "Babylon PowerPlant", "reason": "43,694,588 B，超过 25 MB 建议上限" },
+        { "name": "Babylon fish", "reason": "47,570,100 B，超过 25 MB 建议上限" },
+        { "name": "Babylon haunted_house", "reason": "38,976,908 B，超过 25 MB 建议上限" },
+        { "name": "Babylon solar_system", "reason": "34,009,216 B，超过 25 MB 建议上限" },
+        { "name": "Babylon aerobatic_plane", "reason": "仅使用已废弃 KHR_materials_pbrSpecularGlossiness，Three.js 外观可能明显降级" }
+      ],
+      "changes": [
+        "新增城市轿车、独立烤箱和高塔风力发电机 3 个 CC0 素材",
+        "为每个 glTF 上传主文件、BIN、纹理与完整 ZIP，配置 TOS 优先和固定 commit 回退",
+        "README 素材统计更新为 64 个、TOS 优先 53 个"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 64,
+        "tosAssets": 53,
+        "duplicates": 0,
+        "newAssetFiles": {
+          "models": 3,
+          "filesIncludingPackages": 12,
+          "httpStatus": 200,
+          "byteExact": true,
+          "nonLfs": true,
+          "gltfVersion": "2.0",
+          "externalDependenciesResolved": true
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedNewAssets": [
+          { "id": "city-sedan", "meshes": 5, "triangles": 1222, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "freestanding-oven", "meshes": 2, "triangles": 542, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "tall-wind-turbine", "meshes": 2, "triangles": 632, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": {
+          "id": "platformer-robot",
+          "source": "jsDelivr 回退",
+          "filename": "character.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 4858
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 6202,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 64,
+        "onlineTestedAsset": "city-sedan",
+        "onlineMeshes": 5,
+        "onlineTriangles": 1222,
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-21T04:12:22.088Z"
       }
     }
   ]
