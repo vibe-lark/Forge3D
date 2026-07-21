@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastRun": "2026-07-21T15:15:16+08:00",
-  "totalAssets": 65,
+  "lastRun": "2026-07-21T18:11:08+08:00",
+  "totalAssets": 68,
   "runs": [
     {
       "startedAt": "2026-07-17T10:57:00+08:00",
@@ -2585,6 +2585,183 @@
         "onlineViewportHeight": 864,
         "onlineDetailBottom": 846,
         "lastPublished": "2026-07-21T07:11:50.488Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-21T18:01:54+08:00",
+      "completedAt": "2026-07-21T18:11:08+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "汽车传动总成与复古电视的 Kenney CC0 许可、字节、依赖和商标复核通过"
+        },
+        {
+          "repo": "mrdoob/three.js",
+          "commitSha": "34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8",
+          "result": "Bath Day 的内嵌 CC-BY-4.0 证据与扩展兼容性通过；另审查多个场景候选"
+        },
+        {
+          "scope": "current-catalog-health",
+          "result": "抽查 196 个 TOS、GitHub、许可和完整包 URL，均正常；字节、GLB 头和外部依赖一致"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "vehicle-drivetrain",
+          "name": "汽车传动总成",
+          "nameEn": "Vehicle Drivetrain",
+          "category": "机械",
+          "format": "GLB + PNG",
+          "path": "vendor/kenney/car-kit/Models/GLB format/debris-drivetrain.glb",
+          "size": 36896,
+          "dependencyFiles": [
+            { "path": "Textures/colormap.png", "size": 12371 }
+          ],
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/car-kit/Models/GLB%20format/debris-drivetrain.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/car-kit/Models/GLB%20format/debris-drivetrain.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vehicle-drivetrain/debris-drivetrain.glb",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vehicle-drivetrain/vehicle-drivetrain-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/car-kit/License.txt",
+          "attribution": "Kenney / Car Kit",
+          "riskNote": "通用低模传动构件，不是工程级 CAD；无可见文字或 Logo。"
+        },
+        {
+          "id": "vintage-television",
+          "name": "复古电视机",
+          "nameEn": "Vintage Television",
+          "category": "数码",
+          "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/televisionVintage.glb",
+          "size": 19392,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/televisionVintage.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/televisionVintage.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vintage-television.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit",
+          "riskNote": "通用复古造型，无纹理、文字或 Logo。"
+        },
+        {
+          "id": "bath-day",
+          "name": "沐浴日微场景",
+          "nameEn": "Bath Day",
+          "category": "场景",
+          "format": "GLB",
+          "path": "examples/models/gltf/bath_day.glb",
+          "size": 811108,
+          "repo": "mrdoob/three.js",
+          "commitSha": "34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8",
+          "sourceUrl": "https://github.com/mrdoob/three.js/blob/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/examples/models/gltf/bath_day.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/mrdoob/three.js/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/examples/models/gltf/bath_day.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/mrdoob/three.js/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/bath-day.glb",
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/mrdoob/three.js/blob/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/examples/models/gltf/bath_day.glb",
+          "originalSourceUrl": "https://sketchfab.com/3d-models/bath-day-c1b0d6edd934423d965e3cd032eb358e",
+          "attribution": "Bath day by StanSt",
+          "riskNote": "内嵌作者、来源与 CC-BY-4.0；需要 WebP、Draco、GPU instancing 与 transmission 支持。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "status": "tos_upload_failed",
+          "reason": "3 个分片上传成功，但 multipart complete 仍返回未登录或 token 无效；未写入未完成 URL"
+        }
+      ],
+      "licenseCorrections": [
+        {
+          "ids": ["steampunk-camera", "primary-ion-drive", "bath-day"],
+          "change": "licenseUrl 改为固定 commit 的 GLB 证据链接；Sketchfab 页面单独保存为 originalSourceUrl"
+        }
+      ],
+      "skippedCandidates": [
+        { "name": "Space Ship Hallway", "reason": "CC-BY-4.0 且格式合规，但本轮名额已满，留待后续" },
+        { "name": "Venice Mask", "reason": "内嵌 CC-BY-NC-4.0，不允许当前公开再分发用途" },
+        { "name": "pool、forest_house、dungeon_warkarma", "reason": "缺少逐资产许可证据，拒绝" },
+        { "name": "gears", "reason": "许可链可建立但仅为单色基础齿轮，质量不足" },
+        { "name": "LittlestTokyo、nemetona", "reason": "场景或自然题材，不符合本轮产品、机械与家居优先方向" }
+      ],
+      "changes": [
+        "新增汽车传动总成、复古电视机与 Bath Day 动画微场景",
+        "为传动总成上传 GLB、共享纹理和完整 ZIP，其余两项上传自包含 GLB",
+        "修正 3 个 Three.js 模型的固定许可证据与原始来源字段",
+        "README 更新为 68 个素材、60 个 TOS 优先"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 68,
+        "tosAssets": 60,
+        "duplicates": 0,
+        "catalogUrlAudit": {
+          "checkedUrls": 196,
+          "failedUrls": 0,
+          "byteExact": true,
+          "externalDependenciesResolved": true
+        },
+        "newAssetFiles": {
+          "models": 3,
+          "filesIncludingPackageAndTexture": 5,
+          "httpStatus": 200,
+          "byteExact": true,
+          "nonLfs": true,
+          "glbVersion": "2.0"
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedAssets": [
+          { "id": "vehicle-drivetrain", "meshes": 1, "triangles": 412, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "vintage-television", "meshes": 4, "triangles": 280, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "bath-day", "meshes": 25, "triangles": 32212, "animations": 1, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": {
+          "id": "platformer-robot",
+          "source": "jsDelivr 回退",
+          "filename": "character.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 5162
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 6596,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 68,
+        "onlineTestedAsset": "bath-day",
+        "onlineMeshes": 25,
+        "onlineTriangles": "3.2万",
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-21T10:10:28.600Z"
       }
     }
   ]
