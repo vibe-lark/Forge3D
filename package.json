@@ -1,0 +1,19 @@
+{
+  "name": "forge3d-prototype",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "build:single": "npm run build && node scripts/build-single-html.mjs",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.61.1",
+    "vite": "^7.0.4"
+  }
+}

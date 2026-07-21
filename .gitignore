@@ -1,0 +1,24 @@
+.DS_Store
+.env
+.env.*
+.magic-token
+
+node_modules/
+dist/
+
+# 本地发现、下载和视觉回归产物
+work/downloads/
+work/qa/
+work/real-qa/
+work/*.png
+work/automation/downloads/*
+
+# 保留自动化测试所需的小型固定夹具
+!work/automation/downloads/run-2026-07-20-1800/
+!work/automation/downloads/run-2026-07-20-1800/**
+!work/automation/downloads/run-2026-07-20-2100/
+!work/automation/downloads/run-2026-07-20-2100/**
+!work/automation/downloads/run-2026-07-21-0300/
+!work/automation/downloads/run-2026-07-21-0300/**
+
+*.log

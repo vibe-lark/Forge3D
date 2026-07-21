@@ -1,0 +1,2195 @@
+{
+  "version": 1,
+  "lastRun": "2026-07-21T10:42:14+08:00",
+  "totalAssets": 61,
+  "runs": [
+    {
+      "startedAt": "2026-07-17T10:57:00+08:00",
+      "completedAt": "2026-07-17T11:06:36+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf"
+        }
+      ],
+      "addedAssets": [],
+      "migratedAssets": [
+        {
+          "id": "toy-car",
+          "name": "玩具汽车",
+          "size": 5422412,
+          "license": "CC0-1.0",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/toy-car.glb"
+        },
+        {
+          "id": "water-bottle",
+          "name": "运动水瓶",
+          "size": 8966700,
+          "license": "CC0-1.0",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/water-bottle.glb"
+        },
+        {
+          "id": "boom-box",
+          "name": "便携音响",
+          "size": 10614184,
+          "license": "CC0-1.0",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/boom-box.glb"
+        },
+        {
+          "id": "lantern",
+          "name": "街灯",
+          "size": 9564264,
+          "license": "CC0-1.0",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/lantern.glb"
+        },
+        {
+          "id": "sheen-chair",
+          "name": "光泽单椅",
+          "size": 4125648,
+          "license": "CC0-1.0",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/sheen-chair.glb"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "Clearcoat Wicker",
+          "reason": "纯测试材质球，不符合高质量产品素材标准"
+        },
+        {
+          "name": "Iridescence Suzanne",
+          "reason": "材质扩展测试场景，不符合产品素材标准"
+        },
+        {
+          "name": "PlaysetLightTest",
+          "reason": "包含 CC BY-NC-SA 4.0 非商业限制，不允许上传到公开 TOS 素材库"
+        }
+      ],
+      "changes": [
+        "新增 TOS 优先加载字段和稳定公开 URL",
+        "新增 jsDelivr 与 GitHub Raw 自动回退链路",
+        "加载界面显示当前实际来源"
+      ],
+      "validation": {
+        "tosHttpStatus": 200,
+        "glbMagic": "glTF",
+        "tosDirectLoad": true,
+        "cdnFallbackLoad": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 2882
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1989,
+          "listClientHeight": 390,
+          "listScrollHeight": 3680
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true
+      }
+    },
+    {
+      "startedAt": "2026-07-17T12:01:27+08:00",
+      "completedAt": "2026-07-17T14:46:48+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf"
+        },
+        {
+          "repo": "BabylonJS/Assets",
+          "repoLicense": "CC-BY-4.0",
+          "result": "GitHub API core rate limit exhausted before commit and tree scan; no asset imported"
+        }
+      ],
+      "addedAssets": [],
+      "migratedAssets": [
+        {
+          "id": "glass-vase-flowers",
+          "name": "玻璃花瓶与鲜花",
+          "size": 1819824,
+          "license": "CC0-1.0",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/glass-vase-flowers.glb"
+        },
+        {
+          "id": "transmission-teacup",
+          "name": "半透明茶杯",
+          "size": 4795028,
+          "license": "CC0-1.0",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/transmission-teacup.glb"
+        },
+        {
+          "id": "avocado",
+          "name": "牛油果",
+          "size": 8110040,
+          "license": "CC0-1.0",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/avocado.glb"
+        },
+        {
+          "id": "corset",
+          "name": "紧身胸衣",
+          "size": 13491364,
+          "license": "CC0-1.0",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/corset.glb"
+        },
+        {
+          "id": "materials-variants-shoe",
+          "name": "多材质运动鞋",
+          "size": 7833592,
+          "license": "CC-BY-4.0",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/materials-variants-shoe.glb"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "BabylonJS/Assets candidates",
+          "reason": "GitHub 匿名 API core 配额为 0，无法固定 commit 和检查逐文件路径，本轮不导入"
+        }
+      ],
+      "changes": [
+        "将第二批 5 个合规模型切换为妙笔 TOS 优先加载",
+        "保留 jsDelivr 与 GitHub Raw 回退链路",
+        "素材总数保持 38 个"
+      ],
+      "validation": {
+        "tosHttpStatus": 200,
+        "cors": "*",
+        "glbMagic": "glTF",
+        "tosDirectLoad": true,
+        "testedAsset": {
+          "id": "glass-vase-flowers",
+          "meshes": 4,
+          "triangles": 14000
+        },
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 2882
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1989,
+          "listClientHeight": 390,
+          "listScrollHeight": 3680
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true
+      }
+    },
+    {
+      "startedAt": "2026-07-17T15:04:38+08:00",
+      "completedAt": "2026-07-17T15:34:31+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf"
+        },
+        {
+          "repo": "BabylonJS/Assets",
+          "commitSha": "8be9384c7f8728cb45d27975ac92a412f97a98dd"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "stained-glass-lamp",
+          "name": "彩色玻璃台灯",
+          "nameEn": "Stained Glass Lamp",
+          "category": "灯具",
+          "format": "glTF",
+          "path": "Models/StainedGlassLamp/glTF-JPG-PNG/StainedGlassLamp.gltf",
+          "size": 11095469,
+          "mainFileSize": 21726,
+          "dependencyFileCount": 19,
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/StainedGlassLamp/glTF-JPG-PNG/StainedGlassLamp.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/StainedGlassLamp/glTF-JPG-PNG/StainedGlassLamp.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/stained-glass-lamp/StainedGlassLamp.gltf",
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/StainedGlassLamp/LICENSE.md",
+          "attribution": "Stained Glass Lamp © 2021 Eric Chadwick / Wayfair",
+          "riskNote": "保留 CC BY 4.0 署名，避免暗示 Wayfair 对改造版本或发布方背书。"
+        }
+      ],
+      "migratedAssets": [
+        {
+          "id": "commercial-refrigerator",
+          "name": "商用冰箱",
+          "size": 10131180,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/CommercialRefrigerator/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/commercial-refrigerator.glb"
+        },
+        {
+          "id": "chair-damask",
+          "name": "紫金花纹椅",
+          "size": 2028924,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/ChairDamaskPurplegold/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/chair-damask.glb"
+        },
+        {
+          "id": "glam-velvet-sofa",
+          "name": "丝绒沙发",
+          "size": 3149844,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/GlamVelvetSofa/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/glam-velvet-sofa.glb"
+        },
+        {
+          "id": "punctual-light-lamp",
+          "name": "点光源台灯",
+          "size": 4341320,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/LightsPunctualLamp/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/punctual-light-lamp.glb"
+        },
+        {
+          "id": "silk-pouf",
+          "name": "丝绸软凳",
+          "size": 4632512,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/SpecularSilkPouf/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/silk-pouf.glb"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "Flight Helmet",
+          "reason": "完整 glTF 依赖包 48392569 字节，超过 25 MB 建议上限"
+        },
+        {
+          "name": "SciFi Helmet",
+          "reason": "完整 glTF 依赖包 30286979 字节，超过 25 MB 建议上限"
+        },
+        {
+          "name": "Damaged Helmet",
+          "reason": "目录许可证包含 CC-BY-NC-4.0 非商业限制，不允许公开再分发到素材库"
+        },
+        {
+          "name": "Sponza",
+          "reason": "使用 CryEngine 自定义许可，公开再分发条件不够清晰"
+        },
+        {
+          "name": "BabylonJS Carbon Fiber Wheel",
+          "reason": "只有仓库级 CC-BY-4.0，缺少逐资产作者与署名证据"
+        },
+        {
+          "name": "BabylonJS Aerobatic Plane",
+          "reason": "缺少逐资产许可证与作者证据"
+        },
+        {
+          "name": "BabylonJS Village Log Saw",
+          "reason": "缺少逐资产许可证与作者证据"
+        },
+        {
+          "name": "BabylonJS Vintage Desk Fan",
+          "reason": "只有仓库级许可，缺少逐资产来源与署名证据"
+        }
+      ],
+      "changes": [
+        "新增 1 个带完整 19 个外部依赖的真实 glTF，并按相对目录结构上传到妙笔 TOS",
+        "将第三批 5 个合规模型切换为妙笔 TOS 优先加载",
+        "新增逐资产风险提示展示，保留 jsDelivr 与 GitHub Raw 回退链路",
+        "素材总数增至 39 个，TOS 优先素材增至 16 个"
+      ],
+      "validation": {
+        "githubRateRemaining": 54,
+        "migratedGlbFiles": {
+          "count": 5,
+          "httpStatus": 206,
+          "cors": "*",
+          "magic": "glTF",
+          "sizesMatched": true
+        },
+        "newGltfFiles": {
+          "count": 20,
+          "httpStatus": 200,
+          "cors": "*",
+          "sizesMatched": true,
+          "nonLfs": true,
+          "allRelativeDependenciesPresent": true
+        },
+        "testedExistingAsset": {
+          "id": "cesium-milk-truck",
+          "meshes": 5,
+          "triangles": 3624,
+          "delivery": "jsDelivr CDN"
+        },
+        "testedNewAsset": {
+          "id": "stained-glass-lamp",
+          "meshes": 8,
+          "trianglesDisplay": "3.5万",
+          "delivery": "妙笔 TOS"
+        },
+        "fallbackTest": {
+          "id": "commercial-refrigerator",
+          "tosFailureInjected": true,
+          "loadedFrom": "jsDelivr 回退",
+          "meshes": 8,
+          "trianglesDisplay": "20.9万"
+        },
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 2958
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1989,
+          "listClientHeight": 390,
+          "listScrollHeight": 3777,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 39,
+        "onlineTestedAsset": "stained-glass-lamp",
+        "lastPublished": "2026-07-17T07:33:53.088Z"
+      }
+    },
+    {
+      "startedAt": "2026-07-17T18:00:42+08:00",
+      "completedAt": "2026-07-18T00:17:32+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "method": "固定 commit 的 jsDelivr model-index、逐资产 LICENSE.md 与 metadata.json"
+        },
+        {
+          "repo": "GitHub API",
+          "result": "匿名 core 配额为 0，未扩大到需要 API 的新仓库"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "sheen-cloth",
+          "name": "光泽织物",
+          "nameEn": "Sheen Cloth",
+          "category": "材质",
+          "format": "glTF",
+          "path": "Models/SheenCloth/glTF/SheenCloth.gltf",
+          "size": 4180438,
+          "mainFileSize": 6854,
+          "dependencyFileCount": 6,
+          "packageSize": 3203371,
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/SheenCloth/glTF/SheenCloth.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/SheenCloth/glTF/SheenCloth.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/sheen-cloth/SheenCloth.gltf",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/sheen-cloth/SheenCloth-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/SheenCloth/LICENSE.md",
+          "attribution": "Microsoft，2020",
+          "riskNote": "无署名强制要求；仍保留来源信息便于追溯。"
+        }
+      ],
+      "migratedAssets": [
+        {
+          "id": "anisotropy-barn-lamp",
+          "name": "各向异性谷仓灯",
+          "size": 7833440,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/AnisotropyBarnLamp/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/anisotropy-barn-lamp.glb"
+        },
+        {
+          "id": "iridescence-lamp",
+          "name": "虹彩台灯",
+          "size": 4083912,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/IridescenceLamp/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/iridescence-lamp.glb"
+        },
+        {
+          "id": "broken-window",
+          "name": "破损玻璃窗",
+          "size": 1076624,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/GlassBrokenWindow/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/broken-window.glb"
+        },
+        {
+          "id": "transmission-plant",
+          "name": "半透明绿植",
+          "size": 5759100,
+          "license": "CC-BY-4.0 + CC0-1.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/DiffuseTransmissionPlant/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/transmission-plant.glb"
+        },
+        {
+          "id": "wood-leather-sofa",
+          "name": "木质皮革沙发",
+          "size": 10107912,
+          "license": "CC-BY-4.0 + CC0-1.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/SheenWoodLeatherSofa/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/wood-leather-sofa.glb"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "Damaged Helmet",
+          "reason": "逐资产许可包含 CC-BY-NC-4.0 非商业限制"
+        },
+        {
+          "name": "Flight Helmet",
+          "reason": "完整依赖包超过 25 MB 建议上限"
+        },
+        {
+          "name": "Pot of Coals Animation Pointer",
+          "reason": "与现有 Pot of Coals 高度重复，主要用于动画指针扩展测试"
+        },
+        {
+          "name": "其他 GitHub 仓库候选",
+          "reason": "GitHub 匿名 API core 配额为 0，无法固定新仓库 commit 并完成逐资产证据检查"
+        }
+      ],
+      "changes": [
+        "新增 1 个完整 glTF 材质模型，并上传 7 个依赖文件与完整 ZIP 下载包",
+        "将第四批 5 个合规模型切换为妙笔 TOS 优先加载",
+        "GLB 下载改为 TOS、jsDelivr、GitHub Raw 自动回退",
+        "外部依赖 glTF 优先下载完整 ZIP；无打包链接时打开 GitHub 完整目录",
+        "模型来源连续 15 秒无进度时自动切换备用源",
+        "素材总数增至 40 个，TOS 优先素材增至 22 个"
+      ],
+      "validation": {
+        "migratedGlbFiles": {
+          "count": 5,
+          "httpStatus": 206,
+          "cors": "*",
+          "magic": "glTF",
+          "sizesMatched": true,
+          "nonLfs": true
+        },
+        "newGltfFiles": {
+          "count": 7,
+          "httpStatus": 200,
+          "cors": "*",
+          "sizesMatched": true,
+          "nonLfs": true,
+          "allRelativeDependenciesPresent": true
+        },
+        "packageDownload": {
+          "filename": "sheen-cloth-complete.zip",
+          "size": 3203371,
+          "success": true
+        },
+        "downloadFallback": {
+          "id": "commercial-refrigerator",
+          "tosFailureInjected": true,
+          "downloadedFilename": "CommercialRefrigerator.glb",
+          "success": true
+        },
+        "stallFallback": {
+          "id": "iridescence-lamp",
+          "tosNoProgressSeconds": 15,
+          "loadedFrom": "jsDelivr 回退",
+          "meshes": 3,
+          "trianglesDisplay": "1.9万"
+        },
+        "testedExistingAsset": {
+          "id": "cesium-milk-truck",
+          "meshes": 5,
+          "triangles": 3624,
+          "delivery": "jsDelivr CDN"
+        },
+        "testedNewAsset": {
+          "id": "sheen-cloth",
+          "meshes": 1,
+          "trianglesDisplay": "11.5万",
+          "delivery": "妙笔 TOS"
+        },
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 3034
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1989,
+          "listClientHeight": 390,
+          "listScrollHeight": 3874,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 40,
+        "onlineTestedAsset": "sheen-cloth",
+        "lastPublished": "2026-07-17T16:16:55.772Z"
+      }
+    },
+    {
+      "startedAt": "2026-07-18T00:20:42+08:00",
+      "completedAt": "2026-07-18T00:21:36+08:00",
+      "coalesced": true,
+      "githubSourcesChecked": [
+        {
+          "source": "GitHub API rate_limit",
+          "remaining": 57,
+          "result": "配额已恢复，但上一轮完整维护仅在 3 分钟前完成，本次不重复扫描和导入"
+        }
+      ],
+      "addedAssets": [],
+      "migratedAssets": [],
+      "skippedCandidates": [],
+      "changes": [],
+      "validation": {
+        "dataAssets": 40,
+        "tosAssets": 22,
+        "duplicates": 0,
+        "maintenanceJsonValid": true,
+        "magicPageHttpStatus": 200,
+        "latestTosAssetHttpStatus": 200,
+        "latestTosAssetCors": "*",
+        "recentFullValidationReused": "2026-07-18T00:17:32+08:00"
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "skipped_no_changes",
+        "reason": "与上一轮完成时间仅相隔约 3 分钟，代码、素材记录和线上状态均未变化"
+      }
+    },
+    {
+      "startedAt": "2026-07-18T03:14:16+08:00",
+      "completedAt": "2026-07-18T12:46:15+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "result": "补齐 5 个既有模型逐资产许可证据并迁移"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-Racing",
+          "commitSha": "f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc",
+          "repoLicense": "MIT",
+          "assetLicense": "README 明确声明所有 3D 模型为 CC0"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "racing-motorcycle",
+          "name": "越野摩托车",
+          "nameEn": "Racing Motorcycle",
+          "category": "汽车",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/vehicle-motorcycle.glb",
+          "size": 97172,
+          "dependencyFiles": [
+            {
+              "path": "models/Textures/colormap.png",
+              "size": 10219
+            }
+          ],
+          "repo": "KenneyNL/Starter-Kit-Racing",
+          "commitSha": "f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-Racing/blob/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/models/vehicle-motorcycle.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-Racing/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/models/vehicle-motorcycle.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-racing/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/racing-motorcycle.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-Racing/blob/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/README.md",
+          "attribution": "Kenney",
+          "riskNote": "低多边形风格，无品牌标识。"
+        },
+        {
+          "id": "green-racing-truck",
+          "name": "绿色越野卡车",
+          "nameEn": "Green Racing Truck",
+          "category": "汽车",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/vehicle-truck-green.glb",
+          "size": 104228,
+          "repo": "KenneyNL/Starter-Kit-Racing",
+          "commitSha": "f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-Racing/blob/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/models/vehicle-truck-green.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-Racing/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/models/vehicle-truck-green.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-racing/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/green-racing-truck.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-Racing/blob/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/README.md",
+          "attribution": "Kenney",
+          "riskNote": "低多边形风格，无品牌标识。"
+        },
+        {
+          "id": "trackside-camp",
+          "name": "赛道营地",
+          "nameEn": "Trackside Camp",
+          "category": "场景",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/decoration-tents.glb",
+          "size": 168004,
+          "repo": "KenneyNL/Starter-Kit-Racing",
+          "commitSha": "f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-Racing/blob/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/models/decoration-tents.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-Racing/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/models/decoration-tents.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-racing/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/trackside-camp.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-Racing/blob/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/README.md",
+          "attribution": "Kenney",
+          "riskNote": "低多边形赛道装饰，无品牌标识。"
+        }
+      ],
+      "migratedAssets": [
+        {
+          "id": "fox",
+          "name": "动画狐狸",
+          "size": 162852,
+          "license": "CC-BY-4.0 + CC0-1.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/Fox/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/fox.glb"
+        },
+        {
+          "id": "usd-shader-ball",
+          "name": "USD 材质球",
+          "size": 1319652,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/USDShaderBallForGltf/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/usd-shader-ball.glb"
+        },
+        {
+          "id": "barramundi-fish",
+          "name": "金目鲈",
+          "size": 12488144,
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/BarramundiFish/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/barramundi-fish.glb"
+        },
+        {
+          "id": "iridescence-abalone",
+          "name": "虹彩鲍鱼摆件",
+          "size": 9300744,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/IridescenceAbalone/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/iridescence-abalone.glb"
+        },
+        {
+          "id": "a-beautiful-game",
+          "name": "精致国际象棋",
+          "size": 12105252,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/ABeautifulGame/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/a-beautiful-game.glb"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "Duck",
+          "reason": "逐资产许可证为 SCEA Shared Source 自定义许可，不进入公开再分发库"
+        },
+        {
+          "name": "Virtual City",
+          "reason": "逐资产许可证仅允许特定 glTF 测试用途，不适合作为公开可改造素材"
+        },
+        {
+          "name": "Damaged Helmet",
+          "reason": "包含 CC-BY-NC-4.0 非商业限制"
+        },
+        {
+          "name": "Flight Helmet / SciFi Helmet",
+          "reason": "完整依赖包超过 25 MB 建议上限"
+        },
+        {
+          "name": "Cameras / ClearCoatTest / SimpleMaterial",
+          "reason": "测试夹具或扩展测试场景，不符合高质量产品素材标准"
+        },
+        {
+          "name": "Kenney 其他卡车颜色与赛道碎片",
+          "reason": "与已选卡车高度重复，或只是单个赛道测试组件"
+        }
+      ],
+      "changes": [
+        "新增 3 个 Kenney CC0 车辆与场景素材，并支持多 GitHub 仓库的固定 commit 数据记录",
+        "补齐 Kenney GLB 引用的共享 colormap.png，修复浏览器纹理 404",
+        "将第五批 5 个合规模型迁移到妙笔 TOS",
+        "补齐 Fox 与 USD Shader Ball 的准确逐资产许可和署名",
+        "素材总数增至 43 个，TOS 优先素材增至 30 个"
+      ],
+      "validation": {
+        "migratedGlbFiles": {
+          "count": 5,
+          "httpStatus": 206,
+          "cors": "*",
+          "magic": "glTF",
+          "sizesMatched": true,
+          "nonLfs": true
+        },
+        "newGlbFiles": {
+          "count": 3,
+          "sharedDependencyCount": 1,
+          "httpStatus": 206,
+          "cors": "*",
+          "magic": "glTF",
+          "sizesMatched": true,
+          "nonLfs": true,
+          "externalTextureResolved": true
+        },
+        "testedExistingAsset": {
+          "id": "cesium-milk-truck",
+          "meshes": 5,
+          "triangles": 3624,
+          "delivery": "jsDelivr CDN"
+        },
+        "testedNewAsset": {
+          "id": "racing-motorcycle",
+          "meshes": 4,
+          "triangles": 960,
+          "delivery": "妙笔 TOS"
+        },
+        "downloadFallback": true,
+        "stallFallback": true,
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 3262
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1989,
+          "listClientHeight": 390,
+          "listScrollHeight": 4165,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 43,
+        "onlineTestedAsset": "racing-motorcycle",
+        "lastPublished": "2026-07-18T04:45:27.258Z"
+      }
+    },
+    {
+      "startedAt": "2026-07-18T12:49:24+08:00",
+      "completedAt": "2026-07-18T12:50:03+08:00",
+      "coalesced": true,
+      "githubSourcesChecked": [],
+      "addedAssets": [],
+      "migratedAssets": [],
+      "skippedCandidates": [],
+      "changes": [],
+      "validation": {
+        "dataAssets": 43,
+        "tosAssets": 30,
+        "duplicates": 0,
+        "maintenanceJsonValid": true,
+        "magicPageHttpStatus": 200,
+        "latestTosAssetHttpStatus": 200,
+        "latestTosAssetCors": "*",
+        "recentFullValidationReused": "2026-07-18T12:46:15+08:00"
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "skipped_no_changes",
+        "reason": "与上一轮完整发布仅相隔约 3 分钟，代码、素材与线上状态均未变化"
+      }
+    },
+    {
+      "startedAt": "2026-07-18T15:03:08+08:00",
+      "completedAt": "2026-07-19T00:05:59+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "result": "核验剩余材质与产品模型的 LICENSE.md、metadata.json"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-City-Builder",
+          "commitSha": "4535092b740b378b700efd9df9e27a631815b84a",
+          "repoLicense": "MIT",
+          "assetLicense": "README 明确声明 Sprites and 3D Models 为 CC0"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "city-garage",
+          "name": "城市车库",
+          "nameEn": "City Garage",
+          "category": "场景",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/building-garage.glb",
+          "size": 19204,
+          "repo": "KenneyNL/Starter-Kit-City-Builder",
+          "commitSha": "4535092b740b378b700efd9df9e27a631815b84a",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-garage.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-City-Builder/4535092b740b378b700efd9df9e27a631815b84a/models/building-garage.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-city-builder/4535092b740b378b700efd9df9e27a631815b84a/city-garage.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/README.md",
+          "attribution": "Kenney",
+          "riskNote": "低多边形城市建筑，无品牌标识。"
+        },
+        {
+          "id": "city-house",
+          "name": "小型城市住宅",
+          "nameEn": "Small City House",
+          "category": "家居",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/building-small-c.glb",
+          "size": 70088,
+          "repo": "KenneyNL/Starter-Kit-City-Builder",
+          "commitSha": "4535092b740b378b700efd9df9e27a631815b84a",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-c.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-City-Builder/4535092b740b378b700efd9df9e27a631815b84a/models/building-small-c.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-city-builder/4535092b740b378b700efd9df9e27a631815b84a/city-house.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/README.md",
+          "attribution": "Kenney",
+          "riskNote": "低多边形城市住宅，无品牌标识。"
+        },
+        {
+          "id": "city-fountain",
+          "name": "城市喷泉",
+          "nameEn": "City Fountain",
+          "category": "场景",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/pavement-fountain.glb",
+          "size": 14076,
+          "repo": "KenneyNL/Starter-Kit-City-Builder",
+          "commitSha": "4535092b740b378b700efd9df9e27a631815b84a",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/pavement-fountain.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-City-Builder/4535092b740b378b700efd9df9e27a631815b84a/models/pavement-fountain.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-city-builder/4535092b740b378b700efd9df9e27a631815b84a/city-fountain.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/README.md",
+          "attribution": "Kenney",
+          "riskNote": "低多边形城市装饰，无品牌标识。"
+        }
+      ],
+      "migratedAssets": [
+        {
+          "id": "carbon-fibre",
+          "name": "碳纤维材质",
+          "size": 429880,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/CarbonFibre/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/carbon-fibre.glb"
+        },
+        {
+          "id": "clear-coat-car-paint",
+          "name": "清漆车漆材质",
+          "size": 116948,
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/ClearCoatCarPaint/LICENSE.md",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/clear-coat-car-paint.glb"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "Iridescent Dish with Olives",
+          "reason": "许可证为 CC-BY-4.0，但上游 metadata 标注含非 Khronos 标识风险；未接入 TOS URL"
+        },
+        {
+          "name": "Mosquito In Amber",
+          "reason": "24.2 MB 文件在源 CDN 连续超时或返回 403，未获得可验证的完整文件"
+        },
+        {
+          "name": "Antique Camera / Chronograph Watch / Car Concept",
+          "reason": "逐资产文件包含品牌、Logo 或商标附加说明"
+        },
+        {
+          "name": "Duck / Virtual City",
+          "reason": "使用 SCEA 或 3DRT Testing 自定义许可，不进入公开再分发库"
+        }
+      ],
+      "changes": [
+        "新增 3 个 Kenney City Builder CC0 城市素材，并上传共享 colormap.png",
+        "迁移 2 个许可证明确的材质模型到妙笔 TOS",
+        "补齐碳纤维、清漆车漆与虹彩餐盘的逐资产许可证和风险信息",
+        "虹彩餐盘因标识风险继续使用固定 GitHub/CDN 来源，不从 TOS 分发",
+        "素材总数增至 46 个，TOS 优先素材增至 35 个"
+      ],
+      "validation": {
+        "migratedGlbFiles": {
+          "count": 2,
+          "httpStatus": 206,
+          "cors": "*",
+          "magic": "glTF",
+          "sizesMatched": true,
+          "nonLfs": true
+        },
+        "newGlbFiles": {
+          "count": 3,
+          "sharedDependencyCount": 1,
+          "httpStatus": 206,
+          "cors": "*",
+          "magic": "glTF",
+          "sizesMatched": true,
+          "externalTextureResolved": true
+        },
+        "testedExistingAsset": {
+          "id": "cesium-milk-truck",
+          "meshes": 5,
+          "triangles": 3624,
+          "delivery": "jsDelivr CDN"
+        },
+        "testedNewAsset": {
+          "id": "city-garage",
+          "meshes": 1,
+          "triangles": 196,
+          "delivery": "妙笔 TOS"
+        },
+        "downloadFallback": true,
+        "stallFallback": true,
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 3490
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1989,
+          "listClientHeight": 390,
+          "listScrollHeight": 4456,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 46,
+        "onlineTestedAsset": "city-garage",
+        "lastPublished": "2026-07-18T16:04:03.917Z"
+      }
+    },
+    {
+      "startedAt": "2026-07-19T00:08:02+08:00",
+      "completedAt": "2026-07-19T00:08:28+08:00",
+      "coalesced": true,
+      "githubSourcesChecked": [],
+      "addedAssets": [],
+      "migratedAssets": [],
+      "skippedCandidates": [],
+      "changes": [],
+      "validation": {
+        "dataAssets": 46,
+        "tosAssets": 35,
+        "duplicates": 0,
+        "maintenanceJsonValid": true,
+        "magicPageHttpStatus": 200,
+        "latestTosAssetHttpStatus": 200,
+        "latestTosAssetCors": "*",
+        "recentFullValidationReused": "2026-07-19T00:05:59+08:00"
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "skipped_no_changes",
+        "reason": "与上一轮完整发布仅相隔约 2 分钟，代码、素材与线上状态均未变化"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-19T03:02:35+08:00",
+      "completedAt": "2026-07-19T19:56:41+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "result": "MosquitoInAmber 固定 blob 分片下载、逐资产许可、GLB 结构与 Three.js 解析复核通过"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-Basic-Scene",
+          "commitSha": "a6927e66ff8dd8e173660ce4825abe773c65f683",
+          "repoLicense": "MIT",
+          "assetLicense": "Mini Arena 逐资产 License.txt 明确为 CC0"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-3D-Platformer",
+          "commitSha": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
+          "repoLicense": "MIT",
+          "assetLicense": "README 明确 2D、3D 与音效素材为 CC0"
+        }
+      ],
+      "addedAssets": [],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "sha256": "1c0b49000650e8a8c00d69bc8d64e46d33527871a47d74e4f2278887325cc35f",
+          "gitBlobSha1": "aeb8918810ad43fb255dc4943171d00cb4e14eb7",
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/MosquitoInAmber/LICENSE.md",
+          "attribution": "Loïc Norgeot（模型）、Geoffrey Marchal（蚊虫扫描）与 Sketchfab（实时折射版本）",
+          "status": "tos_upload_failed",
+          "reason": "大文件分片上传在 complete 阶段返回未登录或 token 无效；源码未写入未完成的 TOS URL"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "竞技场雕像 / 竞技场城门 / 低多边形松树",
+          "repo": "KenneyNL/Starter-Kit-Basic-Scene",
+          "reason": "格式、体积和 CC0 许可均通过；因本轮 TOS 认证失败暂缓接入，需连同相对路径 Textures/colormap.png 上传"
+        },
+        {
+          "name": "平台跳跃机器人 / 金币问号方块 / 圆形草地平台",
+          "repo": "KenneyNL/Starter-Kit-3D-Platformer",
+          "reason": "格式、体积和 CC0 许可均通过，但与车辆、机械和产品主方向契合度较低且需共享外部纹理；本轮不接入"
+        },
+        {
+          "name": "Basic Scene 武器、士兵与基础砖块",
+          "reason": "武器题材、角色优先级低或展示完整性不足"
+        },
+        {
+          "name": "3D Platformer 其余 coin、brick、platform、grass、dust、cloud、flag",
+          "reason": "同质化、过于基础或碎片化，不满足本轮高质量素材标准"
+        }
+      ],
+      "changes": [
+        "将首页默认素材从本轮连续 90 秒无法加载的 GitHub 模型切换为 116948 字节、TOS 优先且自包含的清漆车漆材质",
+        "补全琥珀蚊虫摆件的 Loïc Norgeot、Geoffrey Marchal 与 Sketchfab CC BY 4.0 署名",
+        "把回退与停滞测试改用小型模型并隔离浏览器连接池，减少网络波动造成的假失败",
+        "素材总数保持 46 个，TOS 优先素材保持 35 个"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 46,
+        "tosAssets": 35,
+        "duplicates": 0,
+        "mosquitoGlb": {
+          "httpStatus": 200,
+          "sizeMatched": true,
+          "nonLfs": true,
+          "glbVersion": 2,
+          "embeddedDependencies": true,
+          "meshes": 3,
+          "triangles": 14349
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedRecentAsset": {
+          "id": "city-garage",
+          "meshes": 1,
+          "triangles": 196,
+          "delivery": "妙笔 TOS"
+        },
+        "downloadFallback": {
+          "id": "carbon-fibre",
+          "source": "jsDelivr 回退",
+          "filename": "CarbonFibre.glb"
+        },
+        "stallFallback": {
+          "id": "clear-coat-car-paint",
+          "source": "jsDelivr 回退"
+        },
+        "packageDownloadUi": "mocked network response; filename sheen-cloth-complete.zip verified",
+        "packageUrlNetwork": "TOS Range 请求本轮超时，未据此改变素材记录",
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 3490
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 4456,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 46,
+        "onlineTestedAsset": "city-garage",
+        "onlineMeshes": 1,
+        "onlineTriangles": 196,
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "lastPublished": "2026-07-19T10:54:19.383Z",
+        "firstAttempt": "network fetch failed",
+        "retry": "success"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-19T21:55:18+08:00",
+      "completedAt": "2026-07-20T07:48:51+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "result": "重试 MosquitoInAmber 大文件分片迁移，complete 阶段仍返回 token 无效"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-Basic-Scene",
+          "commitSha": "a6927e66ff8dd8e173660ce4825abe773c65f683",
+          "repoLicense": "MIT",
+          "assetLicense": "sample/Mini Arena/License.txt 明确模型为 CC0，作者 Kenney，additional credit Tony Schär"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "arena-statue",
+          "name": "竞技场雕像",
+          "nameEn": "Arena Statue",
+          "category": "场景",
+          "format": "GLB + 外部共享纹理",
+          "path": "sample/Mini Arena/Models/GLB format/statue.glb",
+          "size": 51012,
+          "dependencyFiles": [
+            {
+              "path": "Textures/colormap.png",
+              "size": 10306
+            }
+          ],
+          "repo": "KenneyNL/Starter-Kit-Basic-Scene",
+          "commitSha": "a6927e66ff8dd8e173660ce4825abe773c65f683",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-Basic-Scene/blob/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/Models/GLB%20format/statue.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-Basic-Scene/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/Models/GLB%20format/statue.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-basic-scene/a6927e66ff8dd8e173660ce4825abe773c65f683/arena-statue.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-Basic-Scene/blob/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/License.txt",
+          "attribution": "Kenney / Tony Schär",
+          "riskNote": "通用低多边形雕像，无文字、Logo 或品牌节点。"
+        },
+        {
+          "id": "arena-wall-gate",
+          "name": "竞技场城门",
+          "nameEn": "Arena Wall Gate",
+          "category": "场景",
+          "format": "GLB + 外部共享纹理",
+          "path": "sample/Mini Arena/Models/GLB format/wall-gate.glb",
+          "size": 31064,
+          "repo": "KenneyNL/Starter-Kit-Basic-Scene",
+          "commitSha": "a6927e66ff8dd8e173660ce4825abe773c65f683",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-Basic-Scene/blob/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/Models/GLB%20format/wall-gate.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-Basic-Scene/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/Models/GLB%20format/wall-gate.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-basic-scene/a6927e66ff8dd8e173660ce4825abe773c65f683/arena-wall-gate.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-Basic-Scene/blob/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/License.txt",
+          "attribution": "Kenney / Tony Schär",
+          "riskNote": "通用竞技场建筑构件，无文字、Logo 或品牌元素。"
+        },
+        {
+          "id": "low-poly-pine-tree",
+          "name": "低多边形松树",
+          "nameEn": "Low-poly Pine Tree",
+          "category": "场景",
+          "format": "GLB + 外部共享纹理",
+          "path": "sample/Mini Arena/Models/GLB format/tree.glb",
+          "size": 34164,
+          "repo": "KenneyNL/Starter-Kit-Basic-Scene",
+          "commitSha": "a6927e66ff8dd8e173660ce4825abe773c65f683",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-Basic-Scene/blob/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/Models/GLB%20format/tree.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-Basic-Scene/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/Models/GLB%20format/tree.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-basic-scene/a6927e66ff8dd8e173660ce4825abe773c65f683/low-poly-pine-tree.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-Basic-Scene/blob/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/License.txt",
+          "attribution": "Kenney / Tony Schär",
+          "riskNote": "通用自然场景资产，无文字、Logo 或品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "status": "tos_upload_failed",
+          "reason": "超过 16 MB 的分片上传在 complete 阶段返回未登录或 token 无效；小文件预签名上传正常"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "平台跳跃机器人 / 金币问号方块 / 圆形草地平台",
+          "repo": "KenneyNL/Starter-Kit-3D-Platformer",
+          "reason": "许可和格式合格，但与车辆、机械、产品主方向契合度较低，且本轮已达到 3 个新增上限"
+        },
+        {
+          "name": "Mini Arena 武器、士兵、砖块与基础平台",
+          "reason": "武器题材、角色优先级低、同质化或展示完整性不足"
+        }
+      ],
+      "changes": [
+        "新增 3 个 Kenney Mini Arena CC0 场景素材，并上传共享 colormap.png",
+        "所有新增素材使用妙笔 TOS 优先、固定 commit 的 jsDelivr 与 GitHub Raw 回退",
+        "将联网资产验证与故障注入回归分离，减少外部 CDN 波动造成的测试假失败",
+        "素材总数增至 49 个，TOS 优先素材增至 38 个"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 49,
+        "tosAssets": 38,
+        "duplicates": 0,
+        "newGlbFiles": {
+          "count": 3,
+          "sharedDependencyCount": 1,
+          "httpStatus": 200,
+          "sizes": [51012, 31064, 34164],
+          "magic": "glTF",
+          "nonLfs": true,
+          "externalTextureStatus": 200,
+          "externalTextureSize": 10306,
+          "externalTextureResolved": true
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedNewAsset": {
+          "id": "arena-statue",
+          "meshes": 1,
+          "triangles": 549,
+          "delivery": "妙笔 TOS"
+        },
+        "downloadFallback": {
+          "id": "arena-statue",
+          "source": "jsDelivr 回退",
+          "filename": "statue.glb"
+        },
+        "stallFallback": "复用上一轮通过结果；本轮未修改加载超时逻辑",
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 3718
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 4747,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 49,
+        "onlineTestedAsset": "arena-statue",
+        "onlineMeshes": 1,
+        "onlineTriangles": 549,
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-19T22:06:50.074Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-20T08:38:58+08:00",
+      "completedAt": "2026-07-20T09:25:55+08:00",
+      "coalesced": true,
+      "githubSourcesChecked": [],
+      "addedAssets": [],
+      "migratedAssets": [],
+      "skippedCandidates": [],
+      "changes": [],
+      "validation": {
+        "dataAssets": 49,
+        "tosAssets": 38,
+        "duplicates": 0,
+        "maintenanceJsonValid": true,
+        "magicPageHttpStatus": 200,
+        "magicPageBodyStream": "请求客户端在收到 200 响应头后读取流超时；复用 2026-07-20T07:48:51+08:00 的完整在线 iframe 验证",
+        "latestTosAsset": {
+          "id": "arena-statue",
+          "httpStatus": 200,
+          "bytes": 51012,
+          "magic": "glTF"
+        },
+        "latestTosDependency": {
+          "path": "Textures/colormap.png",
+          "httpStatus": 200,
+          "bytes": 10306,
+          "magic": "PNG"
+        },
+        "recentFullValidationReused": "2026-07-20T07:48:51+08:00"
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "skipped_no_changes",
+        "reason": "与上一轮完整发布相隔不足 2 小时，代码、素材记录、最新 TOS 模型和许可证据均未变化"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-20T12:13:25+08:00",
+      "completedAt": "2026-07-20T13:10:24+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "result": "审查剩余机械、产品、灯具和材质候选；接纳 ClearcoatWicker，拒绝 NC、品牌和自定义许可资产"
+        },
+        {
+          "repo": "KhronosGroup/glTF-Sample-Models",
+          "commitSha": "d7a3cc8e51d7c573771ae77a57f16b0662a905c6",
+          "result": "GearboxAssy 与 ReciprocatingSaw 缺少逐资产再分发授权，拒绝接入"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-FPS",
+          "commitSha": "185fd2326d74a5cf858cffc616f87cf9696f9cc0",
+          "repoLicense": "MIT",
+          "assetLicense": "README 明确 Sprites and 3D Models 为 CC0"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-Basic-Scene",
+          "commitSha": "a6927e66ff8dd8e173660ce4825abe773c65f683",
+          "assetLicense": "Mini Arena License.txt 明确为 CC0"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-3D-Platformer",
+          "commitSha": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
+          "result": "未发现符合当前机械、产品、家居和灯具优先方向的强候选"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "flying-mechanical-drone",
+          "name": "悬浮机械无人机",
+          "nameEn": "Flying Mechanical Drone",
+          "category": "机械",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/enemy-flying.glb",
+          "size": 57828,
+          "dependencyFiles": [
+            {
+              "path": "Textures/colormap.png",
+              "size": 9265
+            }
+          ],
+          "repo": "KenneyNL/Starter-Kit-FPS",
+          "commitSha": "185fd2326d74a5cf858cffc616f87cf9696f9cc0",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-FPS/blob/185fd2326d74a5cf858cffc616f87cf9696f9cc0/models/enemy-flying.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-FPS/185fd2326d74a5cf858cffc616f87cf9696f9cc0/models/enemy-flying.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-fps/185fd2326d74a5cf858cffc616f87cf9696f9cc0/flying-mechanical-drone.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-FPS/blob/185fd2326d74a5cf858cffc616f87cf9696f9cc0/README.md",
+          "attribution": "Kenney",
+          "riskNote": "原文件名带游戏敌人语义；模型本身为无品牌的通用低多边形悬浮无人机。"
+        },
+        {
+          "id": "arena-trophy",
+          "name": "竞技奖杯",
+          "nameEn": "Arena Trophy",
+          "category": "产品",
+          "format": "GLB + 外部共享纹理",
+          "path": "sample/Mini Arena/Models/GLB format/trophy.glb",
+          "size": 23752,
+          "repo": "KenneyNL/Starter-Kit-Basic-Scene",
+          "commitSha": "a6927e66ff8dd8e173660ce4825abe773c65f683",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-Basic-Scene/blob/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/Models/GLB%20format/trophy.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-Basic-Scene/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/Models/GLB%20format/trophy.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-basic-scene/a6927e66ff8dd8e173660ce4825abe773c65f683/arena-trophy.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-Basic-Scene/blob/a6927e66ff8dd8e173660ce4825abe773c65f683/sample/Mini%20Arena/License.txt",
+          "attribution": "Kenney / Tony Schär",
+          "riskNote": "通用低多边形奖杯，无文字、Logo 或品牌元素。"
+        },
+        {
+          "id": "clearcoat-wicker",
+          "name": "清漆藤编材质球",
+          "nameEn": "Clearcoat Wicker",
+          "category": "材质",
+          "format": "GLB",
+          "path": "Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb",
+          "size": 1299752,
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/ClearcoatWicker/glTF-Binary/ClearcoatWicker.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/clearcoat-wicker.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/ClearcoatWicker/LICENSE.md",
+          "attribution": "Eric Chadwick",
+          "riskNote": "材质测试球，不是完整家具产品；无商标或外部依赖。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "status": "tos_upload_failed",
+          "reason": "multipart complete 仍返回未登录或 token 无效；未写入未完成 URL"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "GearboxAssy / ReciprocatingSaw",
+          "reason": "旧 glTF-Sample-Models 目录无 LICENSE.md 或 metadata.json，README 只有转换来源说明，没有公开再分发授权"
+        },
+        {
+          "name": "DamagedHelmet",
+          "reason": "模型包含 CC-BY-NC-4.0 组件，不允许商业再分发"
+        },
+        {
+          "name": "PlaysetLightTest",
+          "reason": "CC-BY-NC-SA-4.0，并含 IKEA 产品设计与品牌知识产权风险"
+        },
+        {
+          "name": "DragonAttenuation",
+          "reason": "包含 Stanford Graphics 自定义许可，未进入公开再分发库"
+        },
+        {
+          "name": "DirectionalLight / ScatteringSkull",
+          "reason": "许可合格但分别为低展示价值测试球组与品类不符的头骨，不为凑数量接入"
+        },
+        {
+          "name": "双路灯道路段 / 赛道终点门架 / 坠落机关平台",
+          "reason": "许可和格式合格，但本轮已达到 3 个新增上限，且展示价值低于入选候选"
+        }
+      ],
+      "changes": [
+        "新增机械无人机、竞技奖杯与清漆藤编材质球 3 个 CC0 素材",
+        "上传 3 个 GLB 与 Starter Kit FPS 共享 colormap.png，使用 TOS 优先和固定 commit 回退",
+        "素材总数增至 52 个，TOS 优先素材增至 41 个"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 52,
+        "tosAssets": 41,
+        "duplicates": 0,
+        "newGlbFiles": {
+          "count": 3,
+          "httpStatus": 200,
+          "sizes": [57828, 23752, 1299752],
+          "magic": "glTF",
+          "nonLfs": true,
+          "externalTextureStatus": 200,
+          "externalTextureSize": 9265,
+          "externalTextureResolved": true
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedNewAsset": {
+          "id": "flying-mechanical-drone",
+          "meshes": 4,
+          "triangles": 544,
+          "delivery": "妙笔 TOS"
+        },
+        "downloadFallback": {
+          "id": "flying-mechanical-drone",
+          "source": "jsDelivr 回退",
+          "filename": "enemy-flying.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 3946
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 5038,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 52,
+        "onlineTestedAsset": "flying-mechanical-drone",
+        "onlineMeshes": 4,
+        "onlineTriangles": 544,
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-20T05:09:44.458Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-20T15:00:20+08:00",
+      "completedAt": "2026-07-20T15:01:06+08:00",
+      "coalesced": true,
+      "githubSourcesChecked": [],
+      "addedAssets": [],
+      "migratedAssets": [],
+      "skippedCandidates": [],
+      "changes": [],
+      "validation": {
+        "dataAssets": 52,
+        "tosAssets": 41,
+        "duplicates": 0,
+        "maintenanceJsonValid": true,
+        "magicPageHttpStatus": 200,
+        "latestTosAsset": {
+          "id": "flying-mechanical-drone",
+          "httpStatus": 200,
+          "bytes": 57828,
+          "magic": "glTF"
+        },
+        "recentFullValidationReused": "2026-07-20T13:10:24+08:00"
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "skipped_no_changes",
+        "reason": "距上一轮完整发布不足 2 小时，代码、素材、TOS 文件和许可证据均未变化"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-20T18:00:32+08:00",
+      "completedAt": "2026-07-20T18:07:04+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KenneyNL/Starter-Kit-City-Builder",
+          "commitSha": "4535092b740b378b700efd9df9e27a631815b84a",
+          "assetLicense": "README 明确 3D Models 为 CC0"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-Racing",
+          "commitSha": "f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc",
+          "assetLicense": "README 明确 3D Models 为 CC0"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-3D-Platformer",
+          "commitSha": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
+          "assetLicense": "README 明确 3D Models 为 CC0"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "road-lightposts",
+          "name": "双路灯直道路段",
+          "nameEn": "Streetlight Road Segment",
+          "category": "场景",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/road-straight-lightposts.glb",
+          "size": 18216,
+          "repo": "KenneyNL/Starter-Kit-City-Builder",
+          "commitSha": "4535092b740b378b700efd9df9e27a631815b84a",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/models/road-straight-lightposts.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-City-Builder/4535092b740b378b700efd9df9e27a631815b84a/models/road-straight-lightposts.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-city-builder/4535092b740b378b700efd9df9e27a631815b84a/road-lightposts.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-City-Builder/blob/4535092b740b378b700efd9df9e27a631815b84a/README.md",
+          "attribution": "Kenney",
+          "riskNote": "路灯与直道路面为单个网格，适合作为场景组件。"
+        },
+        {
+          "id": "race-finish-gantry",
+          "name": "赛道终点门架",
+          "nameEn": "Race Finish Gantry",
+          "category": "场景",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/track-finish.glb",
+          "size": 24544,
+          "repo": "KenneyNL/Starter-Kit-Racing",
+          "commitSha": "f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-Racing/blob/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/models/track-finish.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-Racing/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/models/track-finish.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-racing/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/race-finish-gantry.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-Racing/blob/f5241ebdf00c25bc951bf4fdb7950bb1b78b4bcc/README.md",
+          "attribution": "Kenney",
+          "riskNote": "通用低多边形赛道组件，无可见品牌标识。"
+        },
+        {
+          "id": "falling-mechanism-platform",
+          "name": "坠落机关平台",
+          "nameEn": "Falling Mechanism Platform",
+          "category": "机械",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/platform-falling.glb",
+          "size": 17048,
+          "dependencyFiles": [
+            {
+              "path": "Textures/colormap.png",
+              "size": 10108
+            }
+          ],
+          "repo": "KenneyNL/Starter-Kit-3D-Platformer",
+          "commitSha": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer/blob/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/models/platform-falling.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-3D-Platformer/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/models/platform-falling.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-3d-platformer/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/falling-mechanism-platform.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer/blob/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/README.md",
+          "attribution": "Kenney",
+          "riskNote": "静态低多边形机关平台，不包含坠落行为或品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "status": "tos_upload_failed",
+          "reason": "multipart complete 继续返回未登录或 token 无效；未写入未完成 URL"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "Platformer 砖块、金币、云、草与角色变体",
+          "reason": "同质化、碎片化或不符合当前机械、产品、家居和灯具优先方向"
+        }
+      ],
+      "changes": [
+        "新增双路灯道路段、赛道终点门架和坠落机关平台 3 个 CC0 素材",
+        "上传 3 个 GLB 与 Starter Kit 3D Platformer 共享 colormap.png，保留固定 commit 回退",
+        "素材总数增至 55 个，TOS 优先素材增至 44 个"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 55,
+        "tosAssets": 44,
+        "duplicates": 0,
+        "newGlbFiles": {
+          "count": 3,
+          "httpStatus": 200,
+          "sizes": [18216, 24544, 17048],
+          "magic": "glTF",
+          "nonLfs": true,
+          "externalTextureStatus": 200,
+          "externalTextureSize": 10108,
+          "externalTextureResolved": true
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedNewAsset": {
+          "id": "falling-mechanism-platform",
+          "meshes": 1,
+          "triangles": 180,
+          "delivery": "妙笔 TOS"
+        },
+        "downloadFallback": {
+          "id": "falling-mechanism-platform",
+          "source": "jsDelivr 回退",
+          "filename": "platform-falling.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 4174
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 5329,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 55,
+        "onlineTestedAsset": "falling-mechanism-platform",
+        "onlineMeshes": 1,
+        "onlineTriangles": 180,
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-20T10:06:16.615Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-20T21:02:13+08:00",
+      "completedAt": "2026-07-20T22:22:38+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KenneyNL/Starter-Kit-3D-Platformer",
+          "commitSha": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
+          "repoLicense": "MIT",
+          "assetLicense": "README 明确 3D Models 与包内 assets 为 CC0"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "platformer-robot",
+          "name": "平台跳跃机器人",
+          "nameEn": "Platformer Robot Character",
+          "category": "角色",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/character.glb",
+          "size": 87624,
+          "animations": 4,
+          "repo": "KenneyNL/Starter-Kit-3D-Platformer",
+          "commitSha": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer/blob/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/models/character.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-3D-Platformer/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/models/character.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-3d-platformer/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/platformer-robot.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer/blob/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/README.md",
+          "attribution": "Kenney",
+          "riskNote": "通用低多边形机器人，含 4 个动画，无品牌元素。"
+        },
+        {
+          "id": "coin-question-block",
+          "name": "金币问号方块",
+          "nameEn": "Coin Question Block",
+          "category": "产品",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/block-coin.glb",
+          "size": 66092,
+          "repo": "KenneyNL/Starter-Kit-3D-Platformer",
+          "commitSha": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer/blob/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/models/block-coin.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-3D-Platformer/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/models/block-coin.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-3d-platformer/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/coin-question-block.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer/blob/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/README.md",
+          "attribution": "Kenney",
+          "riskNote": "通用低多边形游戏道具，无第三方品牌元素。"
+        },
+        {
+          "id": "round-grass-platform",
+          "name": "圆形草地平台",
+          "nameEn": "Large Round Grass Platform",
+          "category": "场景",
+          "format": "GLB + 外部共享纹理",
+          "path": "models/platform-grass-large-round.glb",
+          "size": 11316,
+          "repo": "KenneyNL/Starter-Kit-3D-Platformer",
+          "commitSha": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
+          "sourceUrl": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer/blob/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/models/platform-grass-large-round.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/KenneyNL/Starter-Kit-3D-Platformer/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/models/platform-grass-large-round.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kenneynl/starter-kit-3d-platformer/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/round-grass-platform.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer/blob/3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0/README.md",
+          "attribution": "Kenney",
+          "riskNote": "通用低多边形草地场景模块，无品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "status": "tos_upload_failed",
+          "reason": "multipart complete 继续返回未登录或 token 无效；未写入未完成 URL"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "Platformer 其余砖块、草、云、金币与平台变体",
+          "reason": "与已收录素材高度同质或展示完整性较低，本轮不为凑数量接入"
+        }
+      ],
+      "changes": [
+        "新增动画机器人、金币问号方块与圆形草地平台 3 个 CC0 素材",
+        "复用已上传的 Platformer colormap.png，并为 3 个 GLB 配置 TOS 优先与固定 commit 回退",
+        "素材总数增至 58 个，TOS 优先素材增至 47 个"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 58,
+        "tosAssets": 47,
+        "duplicates": 0,
+        "newGlbFiles": {
+          "count": 3,
+          "httpStatus": 200,
+          "sizes": [87624, 66092, 11316],
+          "magic": "glTF",
+          "nonLfs": true,
+          "externalTextureResolved": true
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedNewAsset": {
+          "id": "platformer-robot",
+          "meshes": 6,
+          "triangles": 550,
+          "animations": 4,
+          "delivery": "妙笔 TOS"
+        },
+        "downloadFallback": {
+          "id": "platformer-robot",
+          "source": "jsDelivr 回退",
+          "filename": "character.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 4402
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 5620,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 58,
+        "onlineTestedAsset": "platformer-robot",
+        "onlineMeshes": 6,
+        "onlineTriangles": 550,
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-20T14:22:04.238Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-21T00:01:22+08:00",
+      "completedAt": "2026-07-21T00:02:16+08:00",
+      "coalesced": true,
+      "githubSourcesChecked": [],
+      "addedAssets": [],
+      "migratedAssets": [],
+      "skippedCandidates": [],
+      "changes": [],
+      "validation": {
+        "dataAssets": 58,
+        "tosAssets": 47,
+        "duplicates": 0,
+        "maintenanceJsonValid": true,
+        "magicPageHttpStatus": 200,
+        "latestTosAsset": {
+          "id": "platformer-robot",
+          "httpStatus": 200,
+          "bytes": 87624,
+          "magic": "glTF"
+        },
+        "recentFullValidationReused": "2026-07-20T22:22:38+08:00"
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "skipped_no_changes",
+        "reason": "距上一轮完整发布不足 2 小时，代码、素材、TOS 文件和许可证据均未变化"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-21T03:06:43+08:00",
+      "completedAt": "2026-07-21T10:37:15+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "result": "高价值产品、家具与灯具已基本覆盖；剩余候选因体积、许可、商标、重复或方向不符而跳过"
+        },
+        {
+          "repo": "KenneyNL/Starter-Kit-Match-3",
+          "commitSha": "7fcc45ea03070bb59053f99bdef49733dce3a66f",
+          "result": "递归树不含 GLB/glTF"
+        },
+        {
+          "repo": "KenneyNL/KayKit-Hexagons",
+          "commitSha": "d778a718f7ab3f567301f6ddbbaf42fb573920d7",
+          "result": "CC0 候选合规，但低多边形场景与现有素材方向接近，本轮未接入"
+        },
+        {
+          "repo": "KayKit-Game-Assets/KayKit-Furniture-Bits-1.0",
+          "commitSha": "96d5930a8dbdb363409bbc2d3341718b00e17c9c",
+          "assetLicense": "CC0-1.0"
+        },
+        {
+          "repo": "KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0",
+          "commitSha": "6dfbcac9927d06283752c4defd4882cfe0d29666",
+          "assetLicense": "CC0-1.0"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "armchair-with-pillows",
+          "name": "软垫扶手椅",
+          "nameEn": "Armchair with Pillows",
+          "category": "家居",
+          "format": "glTF + BIN + PNG",
+          "path": "addons/kaykit_furniture_bits/Assets/gltf/armchair_pillows.gltf",
+          "size": 39061,
+          "mainFileSize": 3036,
+          "dependencyFiles": [
+            { "path": "armchair_pillows.bin", "size": 20420 },
+            { "path": "furniturebits_texture.png", "size": 15605 }
+          ],
+          "repo": "KayKit-Game-Assets/KayKit-Furniture-Bits-1.0",
+          "commitSha": "96d5930a8dbdb363409bbc2d3341718b00e17c9c",
+          "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/blob/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/armchair_pillows.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/armchair_pillows.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-furniture-bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/armchair-with-pillows/armchair_pillows.gltf",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-furniture-bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/armchair-with-pillows/armchair-with-pillows-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/blob/96d5930a8dbdb363409bbc2d3341718b00e17c9c/LICENSE.txt",
+          "attribution": "Kay Lousberg / KayKit",
+          "riskNote": "通用低多边形家具，无文字、Logo 或品牌元素。"
+        },
+        {
+          "id": "standing-lamp",
+          "name": "落地灯",
+          "nameEn": "Standing Lamp",
+          "category": "灯具",
+          "format": "glTF + BIN + PNG",
+          "path": "addons/kaykit_furniture_bits/Assets/gltf/lamp_standing.gltf",
+          "size": 30287,
+          "mainFileSize": 3034,
+          "dependencyFiles": [
+            { "path": "lamp_standing.bin", "size": 11648 },
+            { "path": "furniturebits_texture.png", "size": 15605 }
+          ],
+          "repo": "KayKit-Game-Assets/KayKit-Furniture-Bits-1.0",
+          "commitSha": "96d5930a8dbdb363409bbc2d3341718b00e17c9c",
+          "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/blob/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/lamp_standing.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/lamp_standing.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-furniture-bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/standing-lamp/lamp_standing.gltf",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-furniture-bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/standing-lamp/standing-lamp-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/blob/96d5930a8dbdb363409bbc2d3341718b00e17c9c/LICENSE.txt",
+          "attribution": "Kay Lousberg / KayKit",
+          "riskNote": "通用低多边形灯具，无文字、Logo 或品牌元素。"
+        },
+        {
+          "id": "space-mining-drill",
+          "name": "太空采矿钻机",
+          "nameEn": "Space Mining Drill",
+          "category": "机械",
+          "format": "glTF + BIN + PNG",
+          "path": "addons/kaykit_space_base_bits/Assets/gltf/drill_structure.gltf",
+          "size": 99088,
+          "mainFileSize": 5127,
+          "dependencyFiles": [
+            { "path": "drill_structure.bin", "size": 68212 },
+            { "path": "spacebits_texture.png", "size": 25749 }
+          ],
+          "repo": "KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0",
+          "commitSha": "6dfbcac9927d06283752c4defd4882cfe0d29666",
+          "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/blob/6dfbcac9927d06283752c4defd4882cfe0d29666/addons/kaykit_space_base_bits/Assets/gltf/drill_structure.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/addons/kaykit_space_base_bits/Assets/gltf/drill_structure.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-space-base-bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/space-mining-drill/drill_structure.gltf",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-space-base-bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/space-mining-drill/space-mining-drill-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/blob/6dfbcac9927d06283752c4defd4882cfe0d29666/LICENSE.txt",
+          "attribution": "Kay Lousberg / KayKit",
+          "riskNote": "虚构通用机械，无文字、Logo 或品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "status": "tos_upload_failed",
+          "reason": "multipart 第 1 分片 fetch failed；本轮仅重试一次，未写入未完成 URL"
+        }
+      ],
+      "licenseCorrections": [
+        {
+          "id": "antique-camera",
+          "change": "补充 UX3D Logo 特殊许可、准确作者和不迁移 TOS 风险说明"
+        },
+        {
+          "id": "chronograph-watch",
+          "change": "补充 Khronos、3D Commerce、DGG 标志许可、准确署名和不迁移 TOS 风险说明"
+        }
+      ],
+      "skippedCandidates": [
+        { "name": "Starter-Kit-Match-3", "reason": "格式失败：固定 commit 文件树不含 GLB/glTF" },
+        { "name": "KayKit Hexagons 小屋、树丛、岩山", "reason": "合规但仍偏低多边形游戏场景，本轮优先家具、灯具与机械" },
+        { "name": "ScatteringSkull", "reason": "CC0 且 8,959,044 B，但题材偏医学并依赖可能降级的实验散射扩展" },
+        { "name": "BoomBoxWithAxes", "reason": "与已收录 BoomBox 高度重复" },
+        { "name": "MandarinOrange", "reason": "方向优先级低，透射扩展在 Three.js 中可能降级" },
+        { "name": "FlightHelmet", "reason": "完整依赖 48,392,569 B，超过 25 MB 建议上限" },
+        { "name": "SciFiHelmet", "reason": "完整依赖 30,286,979 B，超过 25 MB 建议上限" },
+        { "name": "Sponza", "reason": "完整依赖 52,686,624 B，超过 25 MB 建议上限" },
+        { "name": "PotOfCoalsAnimationPointer", "reason": "含 Khronos/glTF Logo 特殊许可且与现有素材重复" },
+        { "name": "BrainStem", "reason": "Poser EULA，不满足明确公开再分发要求" },
+        { "name": "DragonDispersion", "reason": "Stanford 自定义许可，不满足接纳规则" },
+        { "name": "EnvironmentTest", "reason": "含 Adobe Stock 资产，来源与再分发边界不适合公开素材库" }
+      ],
+      "changes": [
+        "新增软垫扶手椅、落地灯、太空采矿钻机 3 个 CC0 素材",
+        "为每个 glTF 上传主文件、BIN、纹理与完整 ZIP，TOS 优先并保留固定 commit 回退",
+        "修正古董相机与计时腕表的商标许可和风险信息",
+        "素材总数增至 61 个，TOS 优先素材增至 50 个"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 61,
+        "tosAssets": 50,
+        "duplicates": 0,
+        "newAssetFiles": {
+          "models": 3,
+          "filesIncludingPackages": 12,
+          "httpStatus": 200,
+          "byteExact": true,
+          "nonLfs": true,
+          "gltfVersion": "2.0",
+          "externalDependenciesResolved": true
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedNewAsset": {
+          "id": "space-mining-drill",
+          "meshes": 2,
+          "triangles": 1198,
+          "delivery": "妙笔 TOS",
+          "realNetwork": true
+        },
+        "testedNewAssets": [
+          { "id": "armchair-with-pillows", "meshes": 1, "triangles": 614, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "standing-lamp", "meshes": 1, "triangles": 320, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "space-mining-drill", "meshes": 2, "triangles": 1198, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": {
+          "id": "platformer-robot",
+          "source": "jsDelivr 回退",
+          "filename": "character.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 4630
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 5911,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 61,
+        "onlineTestedAsset": "space-mining-drill",
+        "onlineMeshes": 2,
+        "onlineTriangles": 1198,
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-21T02:36:30.578Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-21T10:41:32+08:00",
+      "completedAt": "2026-07-21T10:42:14+08:00",
+      "coalesced": true,
+      "githubSourcesChecked": [],
+      "addedAssets": [],
+      "migratedAssets": [],
+      "skippedCandidates": [],
+      "changes": [],
+      "validation": {
+        "dataAssets": 61,
+        "tosAssets": 50,
+        "duplicates": 0,
+        "maintenanceJsonValid": true,
+        "magicPageHttpStatus": 200,
+        "latestTosAsset": {
+          "id": "space-mining-drill",
+          "httpStatus": 200,
+          "bytes": 5127,
+          "gltfVersion": "2.0"
+        },
+        "recentFullValidationReused": "2026-07-21T10:37:15+08:00"
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "skipped_no_changes",
+        "reason": "距上一轮完整发布约 4 分钟，代码、素材、TOS 文件和许可证据均未变化"
+      }
+    }
+  ]
+}

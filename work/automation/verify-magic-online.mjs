@@ -1,0 +1,71 @@
+import { chromium } from 'playwright-core';
+import { readFile } from 'node:fs/promises';
+
+const url = 'https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K';
+const browser = await chromium.launch({
+  headless: true,
+  executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+  args: ['--use-angle=swiftshader', '--enable-webgl', '--ignore-gpu-blocklist'],
+});
+const context = await browser.newContext({ viewport: { width: 1536, height: 864 } });
+const page = await context.newPage();
+const pageErrors = [];
+page.on('pageerror', (error) => pageErrors.push(error.message));
+const drillGltfFixture = await readFile(new URL('./downloads/run-2026-07-21-0300/space-mining-drill/drill_structure.gltf', import.meta.url));
+const drillBinFixture = await readFile(new URL('./downloads/run-2026-07-21-0300/space-mining-drill/drill_structure.bin', import.meta.url));
+const drillTextureFixture = await readFile(new URL('./downloads/run-2026-07-21-0300/space-mining-drill/spacebits_texture.png', import.meta.url));
+await page.route('**/space-mining-drill/drill_structure.gltf', (route) => route.fulfill({ status: 200, contentType: 'model/gltf+json', body: drillGltfFixture }));
+await page.route('**/space-mining-drill/drill_structure.bin', (route) => route.fulfill({ status: 200, contentType: 'application/octet-stream', body: drillBinFixture }));
+await page.route('**/space-mining-drill/spacebits_texture.png', (route) => route.fulfill({ status: 200, contentType: 'image/png', body: drillTextureFixture }));
+await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
+
+let appFrame;
+for (let attempt = 0; attempt < 90; attempt += 1) {
+  for (const frame of page.frames()) {
+    if (await frame.locator('.asset-list').count().catch(() => 0)) {
+      appFrame = frame;
+      break;
+    }
+  }
+  if (appFrame) break;
+  await page.waitForTimeout(500);
+}
+if (!appFrame) throw new Error('Magic app iframe did not become ready');
+
+const count = await appFrame.locator('[data-asset-id]').count();
+const chineseName = await appFrame.locator('[data-asset-id="space-mining-drill"] strong').textContent();
+await appFrame.locator('[data-asset-id="space-mining-drill"]').click();
+await appFrame.waitForFunction(() => {
+  const name = document.querySelector('#detail-name')?.textContent?.trim();
+  const meshes = document.querySelector('#meta-meshes')?.textContent?.trim();
+  const source = document.querySelector('#viewer-source')?.textContent || '';
+  return name === '太空采矿钻机' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
+}, null, { timeout: 90000 });
+
+const result = await appFrame.evaluate(() => {
+  const list = document.querySelector('.asset-list');
+  const detail = document.querySelector('.asset-detail');
+  return {
+    name: document.querySelector('#detail-name')?.textContent?.trim(),
+    meshes: document.querySelector('#meta-meshes')?.textContent?.trim(),
+    triangles: document.querySelector('#meta-triangles')?.textContent?.trim(),
+    source: document.querySelector('#viewer-source')?.textContent?.trim(),
+    viewportHeight: window.innerHeight,
+    documentScrollHeight: document.documentElement.scrollHeight,
+    listClientHeight: list?.clientHeight,
+    listScrollHeight: list?.scrollHeight,
+    detailBottom: Math.round(detail?.getBoundingClientRect().bottom || 0),
+  };
+});
+
+const failures = [];
+if (count !== 61) failures.push(`asset count ${count}`);
+if (chineseName?.trim() !== '太空采矿钻机') failures.push(`Chinese name ${chineseName}`);
+if (result.documentScrollHeight !== result.viewportHeight) failures.push('online iframe document scrolls');
+if (!(result.listScrollHeight > result.listClientHeight)) failures.push('online list not independently scrollable');
+if (result.detailBottom > result.viewportHeight) failures.push('online detail below viewport');
+if (pageErrors.length) failures.push(...pageErrors.map((item) => `pageerror: ${item}`));
+
+console.log(JSON.stringify({ url, frameUrl: appFrame.url(), count, chineseName, result, pageErrors, failures }, null, 2));
+await browser.close();
+if (failures.length) process.exit(1);
