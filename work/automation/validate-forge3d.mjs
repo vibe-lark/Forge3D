@@ -12,9 +12,7 @@ let browser = await chromium.launch(launchOptions);
 const failures = [];
 const robotFixture = await readFile(new URL('./downloads/run-2026-07-20-2100/character.glb', import.meta.url));
 const colormapFixture = await readFile(new URL('./downloads/run-2026-07-20-1800/platformer-colormap.png', import.meta.url));
-const sedanGltfFixture = await readFile(new URL('./downloads/run-2026-07-21-1200/city-sedan/car_sedan.gltf', import.meta.url));
-const sedanBinFixture = await readFile(new URL('./downloads/run-2026-07-21-1200/city-sedan/car_sedan.bin', import.meta.url));
-const sedanTextureFixture = await readFile(new URL('./downloads/run-2026-07-21-1200/city-sedan/citybits_texture.png', import.meta.url));
+const steampunkCameraFixture = await readFile(new URL('./downloads/run-2026-07-21-1500/steampunk-camera/steampunk_camera.glb', import.meta.url));
 
 async function waitForStats(page) {
   await page.waitForFunction(() => {
@@ -46,10 +44,8 @@ const desktop = await createPage({ width: 1536, height: 864 });
 await desktop.page.goto(baseUrl, { waitUntil: 'commit', timeout: 30000 });
 await desktop.page.waitForSelector('.asset-list', { timeout: 30000 });
 const existing = await waitForStats(desktop.page);
-await desktop.page.route('**/city-sedan/car_sedan.gltf', (route) => route.fulfill({ status: 200, contentType: 'model/gltf+json', body: sedanGltfFixture }));
-await desktop.page.route('**/city-sedan/car_sedan.bin', (route) => route.fulfill({ status: 200, contentType: 'application/octet-stream', body: sedanBinFixture }));
-await desktop.page.route('**/city-sedan/citybits_texture.png', (route) => route.fulfill({ status: 200, contentType: 'image/png', body: sedanTextureFixture }));
-await desktop.page.locator('[data-asset-id="city-sedan"]').click();
+await desktop.page.route('**/steampunk-camera.glb', (route) => route.fulfill({ status: 200, contentType: 'model/gltf-binary', body: steampunkCameraFixture }));
+await desktop.page.locator('[data-asset-id="steampunk-camera"]').click();
 const newAsset = await waitForStats(desktop.page);
 await desktop.page.locator('[data-asset-id="sheen-cloth"]').click();
 await desktop.page.route('**/SheenCloth-complete.zip', (route) => route.fulfill({
@@ -96,9 +92,10 @@ await direct.page.waitForSelector('.asset-list', { timeout: 30000 });
 await waitForStats(direct.page);
 const directAssets = [];
 for (const [id, expectedName] of [
-  ['city-sedan', '城市轿车'],
-  ['freestanding-oven', '独立烤箱'],
-  ['tall-wind-turbine', '高塔风力发电机'],
+  ['steampunk-camera', '蒸汽朋克相机'],
+  ['primary-ion-drive', '初级离子推进器'],
+  ['fire-truck', '消防车'],
+  ['iridescent-dish', '虹彩橄榄餐盘'],
 ]) {
   await direct.page.locator(`[data-asset-id="${id}"]`).click();
   await direct.page.waitForFunction((name) => {

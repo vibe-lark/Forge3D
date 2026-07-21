@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastRun": "2026-07-21T12:13:08+08:00",
-  "totalAssets": 64,
+  "lastRun": "2026-07-21T15:15:16+08:00",
+  "totalAssets": 65,
   "runs": [
     {
       "startedAt": "2026-07-17T10:57:00+08:00",
@@ -2389,6 +2389,202 @@
         "onlineViewportHeight": 864,
         "onlineDetailBottom": 846,
         "lastPublished": "2026-07-21T04:12:22.088Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-21T15:00:37+08:00",
+      "completedAt": "2026-07-21T15:15:16+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "mrdoob/three.js",
+          "commitSha": "34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8",
+          "result": "3 个 CC-BY-4.0 强候选通过，1 个含明显品牌字样被拒绝"
+        },
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "Kenney 原始 Car/Furniture Kit 许可与 3 个候选复核通过"
+        },
+        {
+          "repo": "KhronosGroup/glTF-Sample-Assets",
+          "commitSha": "2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf",
+          "result": "完成 11 个无 TOS 素材的逐资产许可审计，迁移 1 个并移除 2 个不适合下载分发的素材"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "steampunk-camera",
+          "name": "蒸汽朋克相机",
+          "nameEn": "Steampunk Camera",
+          "category": "相机",
+          "format": "GLB",
+          "path": "examples/models/gltf/steampunk_camera.glb",
+          "size": 3946424,
+          "repo": "mrdoob/three.js",
+          "commitSha": "34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8",
+          "sourceUrl": "https://github.com/mrdoob/three.js/blob/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/examples/models/gltf/steampunk_camera.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/mrdoob/three.js/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/examples/models/gltf/steampunk_camera.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/mrdoob/three.js/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/steampunk-camera.glb",
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://sketchfab.com/3d-models/steampunk-camera-a2210a0ba6834141af3bf83ee1e03f07",
+          "attribution": "Steampunk Camera by lumoize",
+          "riskNote": "GLB 内嵌作者、来源与许可；无可见品牌，需要 EXT_texture_webp。"
+        },
+        {
+          "id": "primary-ion-drive",
+          "name": "初级离子推进器",
+          "nameEn": "Primary Ion Drive",
+          "category": "机械",
+          "format": "GLB",
+          "path": "examples/models/gltf/PrimaryIonDrive.glb",
+          "size": 5800408,
+          "repo": "mrdoob/three.js",
+          "commitSha": "34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8",
+          "sourceUrl": "https://github.com/mrdoob/three.js/blob/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/examples/models/gltf/PrimaryIonDrive.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/mrdoob/three.js/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/examples/models/gltf/PrimaryIonDrive.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/mrdoob/three.js/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/primary-ion-drive.glb",
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://sketchfab.com/models/d3f50a66fee74c6588dd9bc92f7fe7b3",
+          "attribution": "Primary Ion Drive /// by indierocktopus",
+          "riskNote": "GLB 内嵌作者、来源与许可；虚构装置，无现实品牌。"
+        },
+        {
+          "id": "fire-truck",
+          "name": "消防车",
+          "nameEn": "Fire Truck",
+          "category": "汽车",
+          "format": "GLB + PNG",
+          "path": "vendor/kenney/car-kit/Models/GLB format/firetruck.glb",
+          "size": 232448,
+          "dependencyFiles": [
+            { "path": "Textures/colormap.png", "size": 12371 }
+          ],
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/car-kit/Models/GLB%20format/firetruck.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/car-kit/Models/GLB%20format/firetruck.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/fire-truck/firetruck.glb",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/fire-truck/fire-truck-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/car-kit/License.txt",
+          "attribution": "Kenney / Car Kit",
+          "riskNote": "通用低多边形消防车，无可见文字或 Logo。"
+        }
+      ],
+      "migratedAssets": [
+        {
+          "id": "iridescent-dish",
+          "name": "虹彩橄榄餐盘",
+          "size": 5742828,
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/Models/IridescentDishWithOlives/LICENSE.md",
+          "attribution": "© 2020 Wayfair, LLC；Eric Chadwick",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/khronos-gltf-sample-assets/2bac6f8c57bf471df0d2a1e8a8ec023c7801dddf/iridescent-dish.glb",
+          "correction": "移除错误的商标风险标记；固定 LICENSE 与 metadata 仅列 CC BY 4.0"
+        }
+      ],
+      "removedAssets": [
+        {
+          "id": "duck",
+          "name": "小黄鸭",
+          "reason": "SCEA Shared Source License 要求随附许可、通知和文档；当前裸 GLB 下载模式不适合继续收录"
+        },
+        {
+          "id": "virtual-city",
+          "name": "虚拟城市",
+          "reason": "3DRT Testing-only 自定义许可禁止再分发与商业部署，不符合本库规则"
+        }
+      ],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "status": "tos_upload_failed",
+          "reason": "3 个分片上传成功，但 multipart complete 仍返回未登录或 token 无效；未写入未完成 URL"
+        }
+      ],
+      "licenseCorrections": [
+        { "id": "car-concept", "change": "补充 Khronos/3D Commerce 商标不随 CC BY 授予的 TOS 禁止说明" },
+        { "id": "cesium-milk-truck", "change": "精确标注 LicenseRef-CC-BY-TM、Cesium 商标和证据不完整风险" },
+        { "id": "sunglasses-khronos", "change": "补充 Khronos/3D Commerce 标志风险与 TOS 禁止说明" },
+        { "id": "hurricane-candle-holder", "change": "补充 Khronos/glTF 标志风险与 TOS 禁止说明" },
+        { "id": "pot-of-coals", "change": "补充 glTF/Khronos/DGG 浮雕标志风险与 TOS 禁止说明" }
+      ],
+      "skippedCandidates": [
+        { "name": "汽车传动总成、复古电视机", "reason": "许可和格式合规，但本轮优先高细节相机、机械和完整车辆，留待后续" },
+        { "name": "Bath Day", "reason": "CC-BY-4.0 且兼容，但本轮最多新增 3 个，留待后续" },
+        { "name": "coffeemat", "reason": "饼干表面含清晰 OREO 品牌字样，且 332,258 三角面；按明显商标风险拒绝" }
+      ],
+      "changes": [
+        "新增蒸汽朋克相机、初级离子推进器和消防车 3 个模型",
+        "将虹彩橄榄餐盘迁移到 TOS，并纠正旧许可误判",
+        "移除不符合直接下载再分发规则的小黄鸭与虚拟城市",
+        "补齐 5 个商标风险素材的许可说明",
+        "README 更新为 65 个素材、57 个 TOS 优先"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 65,
+        "tosAssets": 57,
+        "duplicates": 0,
+        "newAndMigratedFiles": {
+          "models": 4,
+          "filesIncludingPackageAndTexture": 6,
+          "httpStatus": 200,
+          "byteExact": true,
+          "nonLfs": true,
+          "glbVersion": "2.0",
+          "externalDependenciesResolved": true
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedAssets": [
+          { "id": "steampunk-camera", "meshes": 3, "triangles": 20817, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "primary-ion-drive", "meshes": 6, "triangles": 52072, "animations": 1, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "fire-truck", "meshes": 6, "triangles": 2767, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "iridescent-dish", "meshes": 4, "triangles": "2.4万", "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": {
+          "id": "platformer-robot",
+          "source": "jsDelivr 回退",
+          "filename": "character.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 4934
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 6305,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 65,
+        "onlineTestedAsset": "steampunk-camera",
+        "onlineMeshes": 3,
+        "onlineTriangles": "2.1万",
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-21T07:11:50.488Z"
       }
     }
   ]

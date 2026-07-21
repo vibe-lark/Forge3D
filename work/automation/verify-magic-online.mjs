@@ -11,12 +11,8 @@ const context = await browser.newContext({ viewport: { width: 1536, height: 864 
 const page = await context.newPage();
 const pageErrors = [];
 page.on('pageerror', (error) => pageErrors.push(error.message));
-const sedanGltfFixture = await readFile(new URL('./downloads/run-2026-07-21-1200/city-sedan/car_sedan.gltf', import.meta.url));
-const sedanBinFixture = await readFile(new URL('./downloads/run-2026-07-21-1200/city-sedan/car_sedan.bin', import.meta.url));
-const sedanTextureFixture = await readFile(new URL('./downloads/run-2026-07-21-1200/city-sedan/citybits_texture.png', import.meta.url));
-await page.route('**/city-sedan/car_sedan.gltf', (route) => route.fulfill({ status: 200, contentType: 'model/gltf+json', body: sedanGltfFixture }));
-await page.route('**/city-sedan/car_sedan.bin', (route) => route.fulfill({ status: 200, contentType: 'application/octet-stream', body: sedanBinFixture }));
-await page.route('**/city-sedan/citybits_texture.png', (route) => route.fulfill({ status: 200, contentType: 'image/png', body: sedanTextureFixture }));
+const steampunkCameraFixture = await readFile(new URL('./downloads/run-2026-07-21-1500/steampunk-camera/steampunk_camera.glb', import.meta.url));
+await page.route('**/steampunk-camera.glb', (route) => route.fulfill({ status: 200, contentType: 'model/gltf-binary', body: steampunkCameraFixture }));
 await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
 
 let appFrame;
@@ -33,13 +29,13 @@ for (let attempt = 0; attempt < 90; attempt += 1) {
 if (!appFrame) throw new Error('Magic app iframe did not become ready');
 
 const count = await appFrame.locator('[data-asset-id]').count();
-const chineseName = await appFrame.locator('[data-asset-id="city-sedan"] strong').textContent();
-await appFrame.locator('[data-asset-id="city-sedan"]').click();
+const chineseName = await appFrame.locator('[data-asset-id="steampunk-camera"] strong').textContent();
+await appFrame.locator('[data-asset-id="steampunk-camera"]').click();
 await appFrame.waitForFunction(() => {
   const name = document.querySelector('#detail-name')?.textContent?.trim();
   const meshes = document.querySelector('#meta-meshes')?.textContent?.trim();
   const source = document.querySelector('#viewer-source')?.textContent || '';
-  return name === '城市轿车' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
+  return name === '蒸汽朋克相机' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
 }, null, { timeout: 90000 });
 
 const result = await appFrame.evaluate(() => {
@@ -59,8 +55,8 @@ const result = await appFrame.evaluate(() => {
 });
 
 const failures = [];
-if (count !== 64) failures.push(`asset count ${count}`);
-if (chineseName?.trim() !== '城市轿车') failures.push(`Chinese name ${chineseName}`);
+if (count !== 65) failures.push(`asset count ${count}`);
+if (chineseName?.trim() !== '蒸汽朋克相机') failures.push(`Chinese name ${chineseName}`);
 if (result.documentScrollHeight !== result.viewportHeight) failures.push('online iframe document scrolls');
 if (!(result.listScrollHeight > result.listClientHeight)) failures.push('online list not independently scrollable');
 if (result.detailBottom > result.viewportHeight) failures.push('online detail below viewport');
