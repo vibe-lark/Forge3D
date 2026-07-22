@@ -26,5 +26,7 @@ work/automation/downloads/*
 !work/automation/downloads/run-2026-07-21-1500/**
 !work/automation/downloads/run-2026-07-21-1800/
 !work/automation/downloads/run-2026-07-21-1800/**
+!work/automation/downloads/run-2026-07-22-1000/
+!work/automation/downloads/run-2026-07-22-1000/**
 
 *.log

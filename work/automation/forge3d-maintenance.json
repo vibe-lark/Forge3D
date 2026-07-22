@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastRun": "2026-07-21T18:11:08+08:00",
-  "totalAssets": 68,
+  "lastRun": "2026-07-22T11:27:14+08:00",
+  "totalAssets": 71,
   "runs": [
     {
       "startedAt": "2026-07-17T10:57:00+08:00",
@@ -2762,6 +2762,184 @@
         "onlineViewportHeight": 864,
         "onlineDetailBottom": 846,
         "lastPublished": "2026-07-21T10:10:28.600Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-22T10:49:45+08:00",
+      "completedAt": "2026-07-22T11:27:14+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "mrdoob/three.js",
+          "commitSha": "34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8",
+          "result": "Space Ship Hallway 的内嵌 CC-BY-4.0、格式、Three.js 加载和品牌风险通过"
+        },
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "Kenney Train/Furniture Kit 的 CC0 许可、依赖和两个候选通过"
+        },
+        {
+          "repo": "KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0",
+          "commitSha": "6dfbcac9927d06283752c4defd4882cfe0d29666",
+          "result": "太空登陆器、运输车和太阳能板合规，因本轮名额已满延后"
+        },
+        {
+          "scope": "current-catalog-health",
+          "result": "检查 209 个线上链接；4 次瞬时超时逐个重试后均成功，无持久失效或字节错误"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "space-ship-hallway",
+          "name": "太空飞船走廊",
+          "nameEn": "Space Ship Hallway",
+          "category": "场景",
+          "format": "GLB",
+          "path": "examples/models/gltf/space_ship_hallway.glb",
+          "size": 2896272,
+          "repo": "mrdoob/three.js",
+          "commitSha": "34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8",
+          "sourceUrl": "https://github.com/mrdoob/three.js/blob/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/examples/models/gltf/space_ship_hallway.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/mrdoob/three.js/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/examples/models/gltf/space_ship_hallway.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/mrdoob/three.js/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/space-ship-hallway.glb",
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://github.com/mrdoob/three.js/blob/34a5b176cc96f56441c1a8f8c0b5acd17a56e8c8/examples/models/gltf/space_ship_hallway.glb",
+          "originalSourceUrl": "https://sketchfab.com/3d-models/space-ship-hallway-e97dce00ae5549a8a3795e06bc2cfc96",
+          "attribution": "Space Ship Hallway by yeeyeeman",
+          "riskNote": "原创科幻机械走廊，无可见现实品牌；材质偏黑白、形体细长。"
+        },
+        {
+          "id": "steam-locomotive",
+          "name": "蒸汽机车",
+          "nameEn": "Steam Locomotive",
+          "category": "机械",
+          "format": "GLB + PNG",
+          "path": "vendor/kenney/train-kit/Models/GLB format/train-locomotive-a.glb",
+          "size": 154620,
+          "dependencyFiles": [
+            { "path": "Textures/colormap.png", "size": 12684 }
+          ],
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/train-kit/Models/GLB%20format/train-locomotive-a.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/train-kit/Models/GLB%20format/train-locomotive-a.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/steam-locomotive/train-locomotive-a.glb",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/steam-locomotive/steam-locomotive-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/train-kit/License.txt",
+          "attribution": "Kenney；Guus Vermeulen、Tony Schaer / Train Kit",
+          "riskNote": "通用低多边形蒸汽机车，无可见品牌、Logo 或文字。"
+        },
+        {
+          "id": "countertop-coffee-machine",
+          "name": "台式咖啡机与杯子",
+          "nameEn": "Countertop Coffee Machine",
+          "category": "数码",
+          "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/kitchenCoffeeMachine.glb",
+          "size": 13332,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/kitchenCoffeeMachine.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/kitchenCoffeeMachine.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/countertop-coffee-machine.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit",
+          "riskNote": "通用低多边形家电与杯子，无 Logo 或文字。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "status": "tos_upload_failed",
+          "reason": "按用户要求重试；3 个分片成功，multipart complete 仍返回未登录或 token 无效，未写入无效 URL"
+        }
+      ],
+      "skippedCandidates": [
+        { "name": "太空登陆器 A、太空运输车、太阳能板、详细卫星天线", "reason": "许可与格式合规，但本轮最多新增 3 个且已完成上传，留待后续" },
+        { "name": "Venice Mask", "reason": "内嵌 CC-BY-NC-4.0，拒绝" },
+        { "name": "coffeemat", "reason": "清晰 OREO 字样与典型商品外观，商标风险；另有 332,258 三角面" },
+        { "name": "Shopify Chair、Mixer、GeoPlanter、ToyTrain、Canoe", "reason": "仅证明对 model-viewer 仓库的收录许可，不能证明下游公开再分发权" },
+        { "name": "CarbonFiberWheel", "reason": "渲染中有清晰 glTF 标志，商标风险" },
+        { "name": "vintageDeskFan", "reason": "护网上有清晰 BABYLON 字样，商标风险" },
+        { "name": "CarbonFrameBike、coffeeMug、pool", "reason": "缺少逐资产作者与许可证据，拒绝" }
+      ],
+      "changes": [
+        "新增太空飞船走廊、蒸汽机车与台式咖啡机和杯子",
+        "上传 3 个模型；蒸汽机车同时上传相对纹理与完整 ZIP",
+        "检测并丢弃一次不完整 GitHub Raw 下载，使用超时与重试重新获取后才上传",
+        "README 更新为 71 个素材、63 个 TOS 优先"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 71,
+        "tosAssets": 63,
+        "duplicates": 0,
+        "catalogUrlAudit": {
+          "checkedUrls": 209,
+          "persistentFailures": 0,
+          "transientTimeoutsRecovered": 4
+        },
+        "newAssetFiles": {
+          "models": 3,
+          "filesIncludingPackageAndTexture": 5,
+          "httpStatus": 200,
+          "byteExact": true,
+          "nonLfs": true,
+          "glbVersion": "2.0",
+          "partialDownloadRejected": true
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedAssets": [
+          { "id": "space-ship-hallway", "meshes": 8, "triangles": 53400, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "steam-locomotive", "meshes": 6, "triangles": 1666, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "countertop-coffee-machine", "meshes": 3, "triangles": 166, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": {
+          "id": "platformer-robot",
+          "source": "jsDelivr 回退",
+          "filename": "character.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 5390
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 6887,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 71,
+        "onlineTestedAsset": "space-ship-hallway",
+        "onlineMeshes": 8,
+        "onlineTriangles": "5.3万",
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-22T03:26:30.167Z"
       }
     }
   ]

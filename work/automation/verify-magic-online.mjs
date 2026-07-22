@@ -11,8 +11,8 @@ const context = await browser.newContext({ viewport: { width: 1536, height: 864 
 const page = await context.newPage();
 const pageErrors = [];
 page.on('pageerror', (error) => pageErrors.push(error.message));
-const bathDayFixture = await readFile(new URL('./downloads/run-2026-07-21-1800/bath-day/bath_day.glb', import.meta.url));
-await page.route('**/bath-day.glb', (route) => route.fulfill({ status: 200, contentType: 'model/gltf-binary', body: bathDayFixture }));
+const spaceHallwayFixture = await readFile(new URL('./downloads/run-2026-07-22-1000/space-ship-hallway/space_ship_hallway.glb', import.meta.url));
+await page.route('**/space-ship-hallway.glb', (route) => route.fulfill({ status: 200, contentType: 'model/gltf-binary', body: spaceHallwayFixture }));
 await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
 
 let appFrame;
@@ -29,13 +29,13 @@ for (let attempt = 0; attempt < 90; attempt += 1) {
 if (!appFrame) throw new Error('Magic app iframe did not become ready');
 
 const count = await appFrame.locator('[data-asset-id]').count();
-const chineseName = await appFrame.locator('[data-asset-id="bath-day"] strong').textContent();
-await appFrame.locator('[data-asset-id="bath-day"]').click();
+const chineseName = await appFrame.locator('[data-asset-id="space-ship-hallway"] strong').textContent();
+await appFrame.locator('[data-asset-id="space-ship-hallway"]').click();
 await appFrame.waitForFunction(() => {
   const name = document.querySelector('#detail-name')?.textContent?.trim();
   const meshes = document.querySelector('#meta-meshes')?.textContent?.trim();
   const source = document.querySelector('#viewer-source')?.textContent || '';
-  return name === '沐浴日微场景' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
+  return name === '太空飞船走廊' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
 }, null, { timeout: 90000 });
 
 const result = await appFrame.evaluate(() => {
@@ -55,8 +55,8 @@ const result = await appFrame.evaluate(() => {
 });
 
 const failures = [];
-if (count !== 68) failures.push(`asset count ${count}`);
-if (chineseName?.trim() !== '沐浴日微场景') failures.push(`Chinese name ${chineseName}`);
+if (count !== 71) failures.push(`asset count ${count}`);
+if (chineseName?.trim() !== '太空飞船走廊') failures.push(`Chinese name ${chineseName}`);
 if (result.documentScrollHeight !== result.viewportHeight) failures.push('online iframe document scrolls');
 if (!(result.listScrollHeight > result.listClientHeight)) failures.push('online list not independently scrollable');
 if (result.detailBottom > result.viewportHeight) failures.push('online detail below viewport');
