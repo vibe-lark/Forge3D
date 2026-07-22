@@ -43,7 +43,7 @@ const desktop = await createPage({ width: 1536, height: 864 });
 await desktop.page.goto(baseUrl, { waitUntil: 'commit', timeout: 30000 });
 await desktop.page.waitForSelector('.asset-list', { timeout: 30000 });
 const existing = await waitForStats(desktop.page);
-await desktop.page.locator('[data-asset-id="space-lander-a"]').click();
+await desktop.page.locator('[data-asset-id="detailed-satellite-dish"]').click();
 const newAsset = await waitForStats(desktop.page);
 await desktop.page.locator('[data-asset-id="sheen-cloth"]').click();
 await desktop.page.route('**/SheenCloth-complete.zip', (route) => route.fulfill({
@@ -90,9 +90,9 @@ await direct.page.waitForSelector('.asset-list', { timeout: 30000 });
 await waitForStats(direct.page);
 const directAssets = [];
 for (const [id, expectedName] of [
-  ['space-lander-a', '太空登陆器 A'],
-  ['space-transport-truck', '太空运输车'],
-  ['solar-panel', '太阳能板组件'],
+  ['detailed-satellite-dish', '详细卫星天线'],
+  ['space-rover', '太空探测车'],
+  ['space-generator', '太空发电机'],
 ]) {
   await direct.page.locator(`[data-asset-id="${id}"]`).click();
   await direct.page.waitForFunction((name) => {

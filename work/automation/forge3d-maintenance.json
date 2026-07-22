@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastRun": "2026-07-22T12:08:06+08:00",
-  "totalAssets": 74,
+  "lastRun": "2026-07-22T15:07:07+08:00",
+  "totalAssets": 77,
   "runs": [
     {
       "startedAt": "2026-07-17T10:57:00+08:00",
@@ -3100,6 +3100,158 @@
         "onlineViewportHeight": 864,
         "onlineDetailBottom": 846,
         "lastPublished": "2026-07-22T04:07:30.724Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-22T15:01:58+08:00",
+      "completedAt": "2026-07-22T15:07:07+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "Kenney Space Kit 固定镜像的逐包 License.txt 明确为 CC0 1.0；3 个自包含 GLB 的精确字节、GLB v2、非 LFS、品牌风险和 Three.js 加载均通过"
+        },
+        {
+          "officialSource": "https://kenney.nl/assets/space-kit",
+          "result": "Kenney 官方素材页可访问，作为作者与原始来源补充证据"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "detailed-satellite-dish",
+          "name": "详细卫星天线",
+          "nameEn": "Detailed Satellite Dish",
+          "category": "产品",
+          "format": "GLB",
+          "path": "vendor/kenney/space-kit/Models/GLTF format/satelliteDish_detailed.glb",
+          "size": 26044,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/satelliteDish_detailed.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/satelliteDish_detailed.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/space-kit/satelliteDish_detailed.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/License.txt",
+          "attribution": "Kenney / Space Kit",
+          "riskNote": "通用低多边形卫星天线，无可见 Logo 或文字；CC0 不授予商标权。"
+        },
+        {
+          "id": "space-rover",
+          "name": "太空探测车",
+          "nameEn": "Space Rover",
+          "category": "汽车",
+          "format": "GLB",
+          "path": "vendor/kenney/space-kit/Models/GLTF format/rover.glb",
+          "size": 13384,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/rover.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/rover.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/space-kit/rover.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/License.txt",
+          "attribution": "Kenney / Space Kit",
+          "riskNote": "通用低多边形太空探测车，无可见 Logo、文字或现实品牌元素。"
+        },
+        {
+          "id": "space-generator",
+          "name": "太空发电机",
+          "nameEn": "Space Generator",
+          "category": "机械",
+          "format": "GLB",
+          "path": "vendor/kenney/space-kit/Models/GLTF format/machine_generator.glb",
+          "size": 28044,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/machine_generator.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/machine_generator.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/space-kit/machine_generator.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/License.txt",
+          "attribution": "Kenney / Space Kit",
+          "riskNote": "通用低多边形发电机与线缆组件，无可见 Logo、文字或现实品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        {
+          "id": "mosquito-in-amber",
+          "name": "琥珀蚊虫摆件",
+          "size": 24229904,
+          "status": "tos_upload_failed",
+          "reason": "本轮重新确认 GLB v2、声明长度、非 LFS 后重试；3 个分片上传完成，但 multipart complete 仍返回未登录或 token 无效，未写入无效 URL"
+        }
+      ],
+      "skippedCandidates": [
+        { "name": "概念跑车、古董相机、计时腕表、牛奶运输车、太阳镜、玻璃烛台、炭火盆", "reason": "现有素材带有商标元素或自定义许可，继续保留固定 GitHub 来源但不迁移 TOS" },
+        { "name": "Space Kit 其余候选", "reason": "同包许可与格式合规，但本轮新增上限为 3 个，留待后续筛选；本轮无因体积或格式损坏而失败的新增候选" }
+      ],
+      "changes": [
+        "新增详细卫星天线、太空探测车与太空发电机",
+        "使用稳定且可去重的 key 将 3 个自包含 GLB 上传到妙笔 TOS",
+        "README 更新为 77 个素材、69 个 TOS 优先",
+        "Playwright 验证脚本改为加载本轮新增模型；未修改已确认布局、样式或主要交互"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 77,
+        "tosAssets": 69,
+        "duplicates": 0,
+        "newAssetFiles": {
+          "models": 3,
+          "httpStatus": 200,
+          "byteExact": true,
+          "nonLfs": true,
+          "glbVersion": "2.0",
+          "selfContained": true
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedAssets": [
+          { "id": "detailed-satellite-dish", "meshes": 5, "triangles": 390, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "space-rover", "meshes": 4, "triangles": 172, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "space-generator", "meshes": 5, "triangles": 406, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": {
+          "id": "platformer-robot",
+          "source": "jsDelivr 回退",
+          "filename": "character.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 5846
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 7469,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 77,
+        "onlineTestedAsset": "detailed-satellite-dish",
+        "onlineMeshes": 5,
+        "onlineTriangles": "390",
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-22T07:06:36.159Z"
       }
     }
   ]
