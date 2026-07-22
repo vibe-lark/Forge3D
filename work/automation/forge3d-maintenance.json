@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastRun": "2026-07-22T15:07:07+08:00",
-  "totalAssets": 77,
+  "lastRun": "2026-07-22T18:06:01+08:00",
+  "totalAssets": 80,
   "runs": [
     {
       "startedAt": "2026-07-17T10:57:00+08:00",
@@ -3252,6 +3252,132 @@
         "onlineViewportHeight": 864,
         "onlineDetailBottom": 846,
         "lastPublished": "2026-07-22T07:06:36.159Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-22T18:02:05+08:00",
+      "completedAt": "2026-07-22T18:06:01+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "Kenney Space Kit 的逐包 CC0 许可继续覆盖本轮 3 个模型；固定提交、精确字节、GLB v2、自包含、非 LFS、无品牌文字与 Three.js 加载均通过"
+        },
+        {
+          "scope": "existing-assets-without-tos",
+          "result": "7 个素材仍因商标或自定义许可不迁移；琥珀蚊虫已连续多轮在 multipart complete 遇到同一认证错误，本轮未重复消耗上传带宽"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "space-mining-craft",
+          "name": "太空采矿飞船",
+          "nameEn": "Space Mining Craft",
+          "category": "产品",
+          "format": "GLB",
+          "path": "vendor/kenney/space-kit/Models/GLTF format/craft_miner.glb",
+          "size": 26672,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/craft_miner.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/craft_miner.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/space-kit/craft_miner.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/License.txt",
+          "attribution": "Kenney / Space Kit",
+          "riskNote": "通用低多边形科幻采矿飞船，无可见 Logo、文字或现实品牌元素。"
+        },
+        {
+          "id": "corner-computer-workstation",
+          "name": "转角电脑工作站",
+          "nameEn": "Corner Computer Workstation",
+          "category": "数码",
+          "format": "GLB",
+          "path": "vendor/kenney/space-kit/Models/GLTF format/desk_computerCorner.glb",
+          "size": 8720,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/desk_computerCorner.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/desk_computerCorner.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/space-kit/desk_computerCorner.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/License.txt",
+          "attribution": "Kenney / Space Kit",
+          "riskNote": "通用低多边形转角电脑工作站，无屏幕文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "wireless-machine-cable",
+          "name": "无线设备与线缆",
+          "nameEn": "Wireless Machine with Cable",
+          "category": "机械",
+          "format": "GLB",
+          "path": "vendor/kenney/space-kit/Models/GLTF format/machine_wirelessCable.glb",
+          "size": 20884,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/machine_wirelessCable.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/machine_wirelessCable.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/space-kit/machine_wirelessCable.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/License.txt",
+          "attribution": "Kenney / Space Kit",
+          "riskNote": "通用低多边形无线设备与线缆组件，无可见 Logo、文字或现实品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [],
+      "migrationBlocked": [
+        { "id": "mosquito-in-amber", "reason": "24,229,904 字节且许可合规，但连续多轮 multipart complete 返回未登录或 token 无效；等待服务端认证状态变化后再重试" }
+      ],
+      "skippedCandidates": [
+        { "name": "概念跑车、古董相机、计时腕表、牛奶运输车、太阳镜、玻璃烛台、炭火盆", "reason": "商标元素或自定义许可风险，不迁移 TOS" },
+        { "name": "Space Kit 其余合规模型", "reason": "本轮新增上限为 3 个，留待后续；本轮没有因体积或格式损坏而失败的新增候选" }
+      ],
+      "changes": [
+        "新增太空采矿飞船、转角电脑工作站、无线设备与线缆",
+        "使用稳定且可去重的 key 将 3 个自包含 GLB 上传到妙笔 TOS",
+        "README 更新为 80 个素材、72 个 TOS 优先",
+        "更新验证目标；未修改已确认布局、视觉或主要交互"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 80,
+        "tosAssets": 72,
+        "duplicates": 0,
+        "newAssetFiles": {
+          "models": 3,
+          "httpStatus": 200,
+          "byteExact": true,
+          "nonLfs": true,
+          "glbVersion": "2.0",
+          "selfContained": true
+        },
+        "testedExistingAsset": { "id": "clear-coat-car-paint", "meshes": 1, "triangles": 3072, "delivery": "妙笔 TOS" },
+        "testedAssets": [
+          { "id": "space-mining-craft", "meshes": 4, "triangles": 384, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "corner-computer-workstation", "meshes": 3, "triangles": 126, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "wireless-machine-cable", "meshes": 7, "triangles": 282, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": { "id": "platformer-robot", "source": "jsDelivr 回退", "filename": "character.glb" },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": { "viewportHeight": 864, "documentScrollHeight": 864, "detailBottom": 846, "listClientHeight": 341, "listScrollHeight": 6074 },
+        "mobile": { "viewportHeight": 844, "documentScrollHeight": 1988, "listClientHeight": 390, "listScrollHeight": 7760, "bodyOverflow": "auto" },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 80,
+        "onlineTestedAsset": "space-mining-craft",
+        "onlineMeshes": 4,
+        "onlineTriangles": "384",
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-22T10:05:32.048Z"
       }
     }
   ]
