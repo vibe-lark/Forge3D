@@ -12,7 +12,6 @@ let browser = await chromium.launch(launchOptions);
 const failures = [];
 const robotFixture = await readFile(new URL('./downloads/run-2026-07-20-2100/character.glb', import.meta.url));
 const colormapFixture = await readFile(new URL('./downloads/run-2026-07-20-1800/platformer-colormap.png', import.meta.url));
-const spaceHallwayFixture = await readFile(new URL('./downloads/run-2026-07-22-1000/space-ship-hallway/space_ship_hallway.glb', import.meta.url));
 
 async function waitForStats(page) {
   await page.waitForFunction(() => {
@@ -44,8 +43,7 @@ const desktop = await createPage({ width: 1536, height: 864 });
 await desktop.page.goto(baseUrl, { waitUntil: 'commit', timeout: 30000 });
 await desktop.page.waitForSelector('.asset-list', { timeout: 30000 });
 const existing = await waitForStats(desktop.page);
-await desktop.page.route('**/space-ship-hallway.glb', (route) => route.fulfill({ status: 200, contentType: 'model/gltf-binary', body: spaceHallwayFixture }));
-await desktop.page.locator('[data-asset-id="space-ship-hallway"]').click();
+await desktop.page.locator('[data-asset-id="space-lander-a"]').click();
 const newAsset = await waitForStats(desktop.page);
 await desktop.page.locator('[data-asset-id="sheen-cloth"]').click();
 await desktop.page.route('**/SheenCloth-complete.zip', (route) => route.fulfill({
@@ -92,9 +90,9 @@ await direct.page.waitForSelector('.asset-list', { timeout: 30000 });
 await waitForStats(direct.page);
 const directAssets = [];
 for (const [id, expectedName] of [
-  ['space-ship-hallway', '太空飞船走廊'],
-  ['steam-locomotive', '蒸汽机车'],
-  ['countertop-coffee-machine', '台式咖啡机与杯子'],
+  ['space-lander-a', '太空登陆器 A'],
+  ['space-transport-truck', '太空运输车'],
+  ['solar-panel', '太阳能板组件'],
 ]) {
   await direct.page.locator(`[data-asset-id="${id}"]`).click();
   await direct.page.waitForFunction((name) => {

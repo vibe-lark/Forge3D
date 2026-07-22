@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastRun": "2026-07-22T11:27:14+08:00",
-  "totalAssets": 71,
+  "lastRun": "2026-07-22T12:08:06+08:00",
+  "totalAssets": 74,
   "runs": [
     {
       "startedAt": "2026-07-17T10:57:00+08:00",
@@ -2940,6 +2940,166 @@
         "onlineViewportHeight": 864,
         "onlineDetailBottom": 846,
         "lastPublished": "2026-07-22T03:26:30.167Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-22T12:01:11+08:00",
+      "completedAt": "2026-07-22T12:08:06+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0",
+          "commitSha": "6dfbcac9927d06283752c4defd4882cfe0d29666",
+          "result": "逐资产 LICENSE.txt 明确为 CC0 1.0；3 个 glTF 及全部 BIN/PNG 依赖通过固定提交、字节与 Three.js 加载验证"
+        },
+        {
+          "scope": "existing-assets-without-tos",
+          "result": "8 个未迁移素材中 7 个含商标或自定义许可风险；唯一合规的琥珀蚊虫在上一轮刚确认 multipart complete 认证失败，本轮未重复无效请求"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "space-lander-a",
+          "name": "太空登陆器 A",
+          "nameEn": "Space Lander A",
+          "category": "产品",
+          "format": "glTF + BIN + PNG",
+          "path": "addons/kaykit_space_base_bits/Assets/gltf/lander_A.gltf",
+          "size": 110072,
+          "dependencyFiles": [
+            { "path": "lander_A.bin", "size": 81264 },
+            { "path": "spacebits_texture.png", "size": 25749 }
+          ],
+          "repo": "KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0",
+          "commitSha": "6dfbcac9927d06283752c4defd4882cfe0d29666",
+          "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/blob/6dfbcac9927d06283752c4defd4882cfe0d29666/addons/kaykit_space_base_bits/Assets/gltf/lander_A.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/addons/kaykit_space_base_bits/Assets/gltf/lander_A.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-space-base-bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/gltf/lander_A.gltf",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-space-base-bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/packages/space-lander-a-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/blob/6dfbcac9927d06283752c4defd4882cfe0d29666/LICENSE.txt",
+          "attribution": "Kay Lousberg / KayKit Space Base Bits",
+          "riskNote": "通用低多边形科幻登陆器，无文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "space-transport-truck",
+          "name": "太空运输车",
+          "nameEn": "Space Transport Truck",
+          "category": "汽车",
+          "format": "glTF + BIN + PNG",
+          "path": "addons/kaykit_space_base_bits/Assets/gltf/spacetruck.gltf",
+          "size": 86190,
+          "dependencyFiles": [
+            { "path": "spacetruck.bin", "size": 49524 },
+            { "path": "spacebits_texture.png", "size": 25749 }
+          ],
+          "repo": "KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0",
+          "commitSha": "6dfbcac9927d06283752c4defd4882cfe0d29666",
+          "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/blob/6dfbcac9927d06283752c4defd4882cfe0d29666/addons/kaykit_space_base_bits/Assets/gltf/spacetruck.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/addons/kaykit_space_base_bits/Assets/gltf/spacetruck.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-space-base-bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/gltf/spacetruck.gltf",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-space-base-bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/packages/space-transport-truck-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/blob/6dfbcac9927d06283752c4defd4882cfe0d29666/LICENSE.txt",
+          "attribution": "Kay Lousberg / KayKit Space Base Bits",
+          "riskNote": "通用低多边形科幻运输车，无文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "solar-panel",
+          "name": "太阳能板组件",
+          "nameEn": "Solar Panel",
+          "category": "产品",
+          "format": "glTF + BIN + PNG",
+          "path": "addons/kaykit_space_base_bits/Assets/gltf/solarpanel.gltf",
+          "size": 35475,
+          "dependencyFiles": [
+            { "path": "solarpanel.bin", "size": 6660 },
+            { "path": "spacebits_texture.png", "size": 25749 }
+          ],
+          "repo": "KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0",
+          "commitSha": "6dfbcac9927d06283752c4defd4882cfe0d29666",
+          "sourceUrl": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/blob/6dfbcac9927d06283752c4defd4882cfe0d29666/addons/kaykit_space_base_bits/Assets/gltf/solarpanel.gltf",
+          "githubRawUrl": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/addons/kaykit_space_base_bits/Assets/gltf/solarpanel.gltf",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-space-base-bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/gltf/solarpanel.gltf",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/kaykit-game-assets/kaykit-space-base-bits-1.0/6dfbcac9927d06283752c4defd4882cfe0d29666/packages/solar-panel-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/blob/6dfbcac9927d06283752c4defd4882cfe0d29666/LICENSE.txt",
+          "attribution": "Kay Lousberg / KayKit Space Base Bits",
+          "riskNote": "通用低多边形太阳能板组件，无文字、Logo 或现实品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "skippedCandidates": [
+        { "name": "详细卫星天线", "reason": "许可与格式合规，但本轮新增上限为 3 个，留待后续" },
+        { "name": "概念跑车、古董相机、计时腕表、牛奶运输车、太阳镜、玻璃烛台、炭火盆", "reason": "现有素材含商标元素或自定义许可，不迁移到本库 TOS" },
+        { "name": "琥珀蚊虫摆件", "reason": "24,229,904 字节且许可合规；上一轮分片合并接口仍返回认证失败，本轮不重复无效上传" }
+      ],
+      "changes": [
+        "新增太空登陆器 A、太空运输车与太阳能板组件",
+        "使用原 GitHub 相对目录上传 3 个 glTF、3 个 BIN、1 张共享纹理和 3 个完整 ZIP 到 TOS",
+        "README 更新为 74 个素材、66 个 TOS 优先",
+        "Playwright 验证脚本改为真实加载本轮新增模型，未改动已确认布局或视觉样式"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 74,
+        "tosAssets": 66,
+        "duplicates": 0,
+        "newAssetFiles": {
+          "models": 3,
+          "uniqueFilesIncludingDependencies": 7,
+          "completePackages": 3,
+          "httpStatus": 200,
+          "byteExact": true,
+          "nonLfs": true,
+          "gltfVersion": "2.0"
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedAssets": [
+          { "id": "space-lander-a", "meshes": 1, "triangles": 1464, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "space-transport-truck", "meshes": 5, "triangles": 1118, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "solar-panel", "meshes": 1, "triangles": 118, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": {
+          "id": "platformer-robot",
+          "source": "jsDelivr 回退",
+          "filename": "character.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 5618
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 7178,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 74,
+        "onlineTestedAsset": "space-lander-a",
+        "onlineMeshes": 1,
+        "onlineTriangles": "1,464",
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-22T04:07:30.724Z"
       }
     }
   ]
