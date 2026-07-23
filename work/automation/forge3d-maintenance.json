@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastRun": "2026-07-22T18:06:01+08:00",
-  "totalAssets": 80,
+  "lastRun": "2026-07-23T10:26:31+08:00",
+  "totalAssets": 83,
   "runs": [
     {
       "startedAt": "2026-07-17T10:57:00+08:00",
@@ -3378,6 +3378,125 @@
         "onlineViewportHeight": 864,
         "onlineDetailBottom": 846,
         "lastPublished": "2026-07-22T10:05:32.048Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-23T07:11:19+08:00",
+      "completedAt": "2026-07-23T10:26:31+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "Kenney Space Kit 的固定 License.txt 明确为 CC0 1.0；本轮 3 个 GLB 的精确字节、版本、自包含、非 LFS、品牌风险和 Three.js 加载均通过"
+        },
+        {
+          "scope": "existing-assets-without-tos",
+          "result": "7 个素材仍因商标或自定义许可不迁移；琥珀蚊虫继续等待 multipart complete 认证恢复，本轮未重复已知失败"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "cargo-monorail-train",
+          "name": "货运单轨列车",
+          "nameEn": "Cargo Monorail Train",
+          "category": "汽车",
+          "format": "GLB",
+          "path": "vendor/kenney/space-kit/Models/GLTF format/monorail_trainCargo.glb",
+          "size": 51296,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/monorail_trainCargo.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/monorail_trainCargo.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/space-kit/monorail_trainCargo.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/License.txt",
+          "attribution": "Kenney / Space Kit",
+          "riskNote": "通用低多边形货运单轨列车，无可见 Logo、文字或现实品牌元素。"
+        },
+        {
+          "id": "large-space-hangar",
+          "name": "大型太空机库",
+          "nameEn": "Large Space Hangar",
+          "category": "场景",
+          "format": "GLB",
+          "path": "vendor/kenney/space-kit/Models/GLTF format/hangar_largeA.glb",
+          "size": 25304,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/hangar_largeA.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/hangar_largeA.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/space-kit/hangar_largeA.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/License.txt",
+          "attribution": "Kenney / Space Kit",
+          "riskNote": "通用低多边形太空机库场景模块，无可见 Logo、文字或现实品牌元素。"
+        },
+        {
+          "id": "space-office-chair",
+          "name": "太空办公椅",
+          "nameEn": "Space Office Chair",
+          "category": "家居",
+          "format": "GLB",
+          "path": "vendor/kenney/space-kit/Models/GLTF format/desk_chairArms.glb",
+          "size": 10440,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/desk_chairArms.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/Models/GLTF%20format/desk_chairArms.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/space-kit/desk_chairArms.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/space-kit/License.txt",
+          "attribution": "Kenney / Space Kit",
+          "riskNote": "通用低多边形扶手办公椅，无可见 Logo、文字或现实品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [],
+      "migrationBlocked": [
+        { "id": "mosquito-in-amber", "reason": "24,229,904 字节且许可合规；连续多轮 multipart complete 返回未登录或 token 无效，等待服务端状态变化" }
+      ],
+      "skippedCandidates": [
+        { "name": "概念跑车、古董相机、计时腕表、牛奶运输车、太阳镜、玻璃烛台、炭火盆", "reason": "商标元素或自定义许可风险，不迁移 TOS" },
+        { "name": "Space Kit 其余合规模型", "reason": "本轮新增上限为 3 个，留待后续；本轮没有因体积或格式损坏而失败的新增候选" }
+      ],
+      "changes": [
+        "新增货运单轨列车、大型太空机库与太空办公椅",
+        "使用稳定且可去重的 key 将 3 个自包含 GLB 上传到妙笔 TOS",
+        "README 更新为 83 个素材、75 个 TOS 优先",
+        "更新验证目标；未修改已确认布局、视觉或主要交互"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 83,
+        "tosAssets": 75,
+        "duplicates": 0,
+        "newAssetFiles": { "models": 3, "httpStatus": 200, "byteExact": true, "nonLfs": true, "glbVersion": "2.0", "selfContained": true },
+        "testedExistingAsset": { "id": "clear-coat-car-paint", "meshes": 1, "triangles": 3072, "delivery": "妙笔 TOS" },
+        "testedAssets": [
+          { "id": "cargo-monorail-train", "meshes": 8, "triangles": 816, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "large-space-hangar", "meshes": 9, "triangles": 412, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "space-office-chair", "meshes": 3, "triangles": 128, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": { "id": "platformer-robot", "source": "jsDelivr 回退", "filename": "character.glb" },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": { "viewportHeight": 864, "documentScrollHeight": 864, "detailBottom": 846, "listClientHeight": 341, "listScrollHeight": 6302 },
+        "mobile": { "viewportHeight": 844, "documentScrollHeight": 1988, "listClientHeight": 390, "listScrollHeight": 8051, "bodyOverflow": "auto" },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 83,
+        "onlineTestedAsset": "cargo-monorail-train",
+        "onlineMeshes": 8,
+        "onlineTriangles": "816",
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-23T02:26:02.849Z"
       }
     }
   ]
