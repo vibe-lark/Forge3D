@@ -6,7 +6,7 @@
 
 [打开 Forge3D 妙笔在线版](https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K)
 
-当前精选库包含 83 个真实模型，其中 75 个优先通过妙笔 TOS 加载，并保留固定 GitHub commit 作为来源与回退。
+当前精选库包含 86 个真实模型，其中 78 个优先通过妙笔 TOS 加载，并保留固定 GitHub commit 作为来源与回退。
 
 ## 运行
 

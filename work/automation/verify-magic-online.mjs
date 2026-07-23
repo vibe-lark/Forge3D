@@ -25,13 +25,13 @@ for (let attempt = 0; attempt < 90; attempt += 1) {
 if (!appFrame) throw new Error('Magic app iframe did not become ready');
 
 const count = await appFrame.locator('[data-asset-id]').count();
-const chineseName = await appFrame.locator('[data-asset-id="cargo-monorail-train"] strong').textContent();
-await appFrame.locator('[data-asset-id="cargo-monorail-train"]').click();
+const chineseName = await appFrame.locator('[data-asset-id="compact-laptop"] strong').textContent();
+await appFrame.locator('[data-asset-id="compact-laptop"]').click();
 await appFrame.waitForFunction(() => {
   const name = document.querySelector('#detail-name')?.textContent?.trim();
   const meshes = document.querySelector('#meta-meshes')?.textContent?.trim();
   const source = document.querySelector('#viewer-source')?.textContent || '';
-  return name === '货运单轨列车' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
+  return name === '轻薄笔记本电脑' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
 }, null, { timeout: 90000 });
 
 const result = await appFrame.evaluate(() => {
@@ -51,8 +51,8 @@ const result = await appFrame.evaluate(() => {
 });
 
 const failures = [];
-if (count !== 83) failures.push(`asset count ${count}`);
-if (chineseName?.trim() !== '货运单轨列车') failures.push(`Chinese name ${chineseName}`);
+if (count !== 86) failures.push(`asset count ${count}`);
+if (chineseName?.trim() !== '轻薄笔记本电脑') failures.push(`Chinese name ${chineseName}`);
 if (result.documentScrollHeight !== result.viewportHeight) failures.push('online iframe document scrolls');
 if (!(result.listScrollHeight > result.listClientHeight)) failures.push('online list not independently scrollable');
 if (result.detailBottom > result.viewportHeight) failures.push('online detail below viewport');

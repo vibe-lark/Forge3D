@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "lastRun": "2026-07-23T10:26:31+08:00",
-  "totalAssets": 83,
+  "lastRun": "2026-07-23T15:06:56+08:00",
+  "totalAssets": 86,
   "runs": [
     {
       "startedAt": "2026-07-17T10:57:00+08:00",
@@ -3497,6 +3497,129 @@
         "onlineViewportHeight": 864,
         "onlineDetailBottom": 846,
         "lastPublished": "2026-07-23T02:26:02.849Z"
+      }
+    },
+    {
+      "scheduledAt": "2026-07-23T15:01:17+08:00",
+      "completedAt": "2026-07-23T15:06:56+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "Kenney Furniture Kit 2.0 与 Car Kit 3.1 的固定 License.txt 均明确为 CC0；本轮模型字节、GLB v2、非 LFS、品牌风险和 Three.js 加载通过"
+        },
+        {
+          "officialSources": ["https://kenney.nl/assets/furniture-kit", "https://kenney.nl/assets/car-kit"],
+          "result": "两个 Kenney 官方素材页可访问，作为作者和来源补充证据"
+        },
+        {
+          "scope": "existing-assets-without-tos",
+          "result": "7 个素材仍因商标或自定义许可不迁移；琥珀蚊虫等待 multipart complete 认证恢复，本轮未重复已知失败"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "compact-laptop",
+          "name": "轻薄笔记本电脑",
+          "nameEn": "Compact Laptop",
+          "category": "数码",
+          "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/laptop.glb",
+          "size": 5540,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/laptop.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/laptop.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/laptop.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit",
+          "riskNote": "通用低多边形笔记本电脑，无屏幕文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "wooden-radio",
+          "name": "复古木质收音机",
+          "nameEn": "Wooden Radio",
+          "category": "数码",
+          "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/radio.glb",
+          "size": 25020,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/radio.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/radio.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/radio.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit",
+          "riskNote": "通用低多边形木质收音机，无刻度文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "tractor-shovel",
+          "name": "铲斗拖拉机",
+          "nameEn": "Tractor Shovel",
+          "category": "机械",
+          "format": "GLB + PNG",
+          "path": "vendor/kenney/car-kit/Models/GLB format/tractor-shovel.glb",
+          "size": 222584,
+          "dependencyFiles": [{ "path": "Textures/colormap.png", "size": 12371 }],
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/car-kit/Models/GLB%20format/tractor-shovel.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/car-kit/Models/GLB%20format/tractor-shovel.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/car-kit/tractor-shovel/tractor-shovel.glb",
+          "packageUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/car-kit/tractor-shovel/tractor-shovel-complete.zip",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/car-kit/License.txt",
+          "attribution": "Kenney / Car Kit",
+          "riskNote": "通用低多边形铲斗拖拉机，无可见 Logo 或文字。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [],
+      "migrationBlocked": [{ "id": "mosquito-in-amber", "reason": "24,229,904 字节且许可合规；连续多轮 multipart complete 返回未登录或 token 无效，等待服务端状态变化" }],
+      "skippedCandidates": [
+        { "name": "概念跑车、古董相机、计时腕表、牛奶运输车、太阳镜、玻璃烛台、炭火盆", "reason": "商标元素或自定义许可风险，不迁移 TOS" },
+        { "name": "其他 Kenney CC0 候选", "reason": "本轮新增上限为 3 个，留待后续；本轮没有因体积或格式损坏而失败的新增候选" }
+      ],
+      "changes": [
+        "新增轻薄笔记本电脑、复古木质收音机与铲斗拖拉机",
+        "上传 3 个模型；拖拉机同时上传相对色板纹理与完整 ZIP",
+        "README 更新为 86 个素材、78 个 TOS 优先",
+        "更新验证目标；未修改已确认布局、视觉或主要交互"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 86,
+        "tosAssets": 78,
+        "duplicates": 0,
+        "newAssetFiles": { "models": 3, "filesIncludingDependencyAndPackage": 5, "httpStatus": 200, "byteExact": true, "nonLfs": true, "glbVersion": "2.0" },
+        "testedExistingAsset": { "id": "clear-coat-car-paint", "meshes": 1, "triangles": 3072, "delivery": "妙笔 TOS" },
+        "testedAssets": [
+          { "id": "compact-laptop", "meshes": 3, "triangles": 68, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "wooden-radio", "meshes": 3, "triangles": 432, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "tractor-shovel", "meshes": 6, "triangles": 2646, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": { "id": "platformer-robot", "source": "jsDelivr 回退", "filename": "character.glb" },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": { "viewportHeight": 864, "documentScrollHeight": 864, "detailBottom": 846, "listClientHeight": 341, "listScrollHeight": 6530 },
+        "mobile": { "viewportHeight": 844, "documentScrollHeight": 1988, "listClientHeight": 390, "listScrollHeight": 8342, "bodyOverflow": "auto" },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 86,
+        "onlineTestedAsset": "compact-laptop",
+        "onlineMeshes": 3,
+        "onlineTriangles": "68",
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-23T07:06:23.390Z"
       }
     }
   ]
