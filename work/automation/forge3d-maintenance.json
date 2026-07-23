@@ -3621,6 +3621,184 @@
         "onlineDetailBottom": 846,
         "lastPublished": "2026-07-23T07:06:23.390Z"
       }
+    },
+    {
+      "scheduledAt": "2026-07-23T18:01:12+08:00",
+      "completedAt": "2026-07-23T21:08:06+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "固定 commit 中 Kenney Furniture Kit 2.0 的 License.txt 明确为 CC0；3 个 GLB 的精确字节、GLB v2、自包含、非 LFS、品牌风险和 Three.js 加载均通过"
+        },
+        {
+          "officialSource": "https://kenney.nl/assets/furniture-kit",
+          "result": "Kenney 官方素材页作为作者与来源补充证据"
+        },
+        {
+          "scope": "existing-assets-without-tos",
+          "result": "7 个素材仍因商标或自定义许可不迁移；琥珀蚊虫等待 multipart complete 认证恢复，本轮未重复已知失败"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "stacked-washer-dryer",
+          "name": "叠放式洗衣烘干机",
+          "nameEn": "Stacked Washer Dryer",
+          "category": "家居",
+          "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/washerDryerStacked.glb",
+          "size": 64060,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/washerDryerStacked.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/washerDryerStacked.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/washerDryerStacked.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit",
+          "riskNote": "通用低多边形洗衣烘干设备，无控制面板文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "modern-ceiling-fan",
+          "name": "现代吊扇",
+          "nameEn": "Modern Ceiling Fan",
+          "category": "家居",
+          "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/ceilingFan.glb",
+          "size": 15284,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/ceilingFan.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/ceilingFan.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/ceilingFan.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit",
+          "riskNote": "通用低多边形三叶吊扇，无可见文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "design-lounge-sofa",
+          "name": "设计休闲沙发",
+          "nameEn": "Design Lounge Sofa",
+          "category": "家居",
+          "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/loungeDesignSofa.glb",
+          "size": 9128,
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/loungeDesignSofa.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/loungeDesignSofa.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/loungeDesignSofa.glb",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit",
+          "riskNote": "通用低多边形双人休闲沙发，无可见文字、Logo 或现实品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [],
+      "migrationBlocked": [
+        {
+          "id": "mosquito-in-amber",
+          "reason": "24,229,904 字节且许可合规；连续多轮 multipart complete 返回未登录或 token 无效，等待服务端状态变化"
+        }
+      ],
+      "skippedCandidates": [
+        {
+          "name": "概念跑车、古董相机、计时腕表、牛奶运输车、太阳镜、玻璃烛台、炭火盆",
+          "reason": "商标元素或自定义许可风险，不迁移 TOS"
+        },
+        {
+          "name": "Furniture Kit 其余 CC0 候选",
+          "reason": "本轮新增上限为 3 个，留待后续；本轮没有因体积、格式或解析失败而拒绝的新增候选"
+        }
+      ],
+      "changes": [
+        "新增叠放式洗衣烘干机、现代吊扇与设计休闲沙发",
+        "使用固定且可去重的 key 将 3 个自包含 GLB 上传到妙笔 TOS",
+        "README 更新为 89 个素材、81 个 TOS 优先",
+        "修复 macOS SwiftShader 下自动化第二个 WebGL context 偶发空白的问题；未修改已确认布局、视觉或主要交互"
+      ],
+      "validation": {
+        "buildSingle": true,
+        "dataAssets": 89,
+        "tosAssets": 81,
+        "duplicates": 0,
+        "newAssetFiles": {
+          "models": 3,
+          "httpStatus": 200,
+          "byteExact": true,
+          "nonLfs": true,
+          "glbVersion": "2.0",
+          "selfContained": true
+        },
+        "testedExistingAsset": {
+          "id": "clear-coat-car-paint",
+          "meshes": 1,
+          "triangles": 3072,
+          "delivery": "妙笔 TOS"
+        },
+        "testedAssets": [
+          {
+            "id": "stacked-washer-dryer",
+            "meshes": 7,
+            "triangles": 992,
+            "delivery": "妙笔 TOS",
+            "realNetwork": true
+          },
+          {
+            "id": "modern-ceiling-fan",
+            "meshes": 3,
+            "triangles": 214,
+            "delivery": "妙笔 TOS",
+            "realNetwork": true
+          },
+          {
+            "id": "design-lounge-sofa",
+            "meshes": 2,
+            "triangles": 116,
+            "delivery": "妙笔 TOS",
+            "realNetwork": true
+          }
+        ],
+        "downloadFallback": {
+          "id": "platformer-robot",
+          "source": "jsDelivr 回退",
+          "filename": "character.glb"
+        },
+        "packageDownload": true,
+        "largeModelConfirmation": true,
+        "desktop": {
+          "viewportHeight": 864,
+          "documentScrollHeight": 864,
+          "detailBottom": 846,
+          "listClientHeight": 341,
+          "listScrollHeight": 6758
+        },
+        "mobile": {
+          "viewportHeight": 844,
+          "documentScrollHeight": 1988,
+          "listClientHeight": 390,
+          "listScrollHeight": 8633,
+          "bodyOverflow": "auto"
+        },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K",
+        "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K",
+        "status": "success",
+        "onlineVerified": true,
+        "onlineAssetCount": 89,
+        "onlineTestedAsset": "stacked-washer-dryer",
+        "onlineMeshes": 7,
+        "onlineTriangles": "992",
+        "onlineDocumentScrollHeight": 864,
+        "onlineViewportHeight": 864,
+        "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-23T13:08:06.000Z"
+      }
     }
   ]
 }

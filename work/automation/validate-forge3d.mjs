@@ -83,6 +83,10 @@ if (antiqueRequests !== 0) failures.push('large model requested before confirmat
 
 await desktop.context.close();
 
+// WebGL 场景关闭后重启浏览器进程，避免 macOS SwiftShader 偶发让后续 context 停在空白页。
+await browser.close();
+browser = await chromium.launch(launchOptions);
+
 // 真实网络加载：确认新素材的 TOS glTF、BIN 和纹理能被浏览器中的 Three.js 一起解析。
 const direct = await createPage({ width: 1536, height: 864 });
 await direct.page.goto(baseUrl, { waitUntil: 'commit', timeout: 30000 });
@@ -90,9 +94,9 @@ await direct.page.waitForSelector('.asset-list', { timeout: 30000 });
 await waitForStats(direct.page);
 const directAssets = [];
 for (const [id, expectedName] of [
-  ['compact-laptop', '轻薄笔记本电脑'],
-  ['wooden-radio', '复古木质收音机'],
-  ['tractor-shovel', '铲斗拖拉机'],
+  ['stacked-washer-dryer', '叠放式洗衣烘干机'],
+  ['modern-ceiling-fan', '现代吊扇'],
+  ['design-lounge-sofa', '设计休闲沙发'],
 ]) {
   await direct.page.locator(`[data-asset-id="${id}"]`).click();
   await direct.page.waitForFunction((name) => {
