@@ -7,6 +7,8 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "build:single": "npm run build && node scripts/build-single-html.mjs",
+    "build:home": "vite build --config vite.home.config.js",
+    "build:home:single": "npm run build:home && node scripts/build-home-single.mjs",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {

@@ -8,5 +8,15 @@
       "tab": "https://applink.feishu.cn/client/web_app/open?mode=appCenter&appId=cli_a98afe875979500d&width=640&min_width=350&max_width=1000&lk_target_url=https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K"
     },
     "last_published": "2026-07-23T07:06:23.390Z"
+  },
+  "outputs/forge3d-home-magic.html": {
+    "remoteId": "vqbtFtT6VWt",
+    "urls": {
+      "html_box": "https://magic.solutionsuite.cn/html-box/vqbtFtT6VWt",
+      "dashboard": "https://magic.solutionsuite.cn/dashboard/vqbtFtT6VWt",
+      "panel": "https://applink.feishu.cn/client/web_app/open?mode=panel&appId=cli_a98afe875979500d&width=640&min_width=350&max_width=1000&lk_target_url=https://magic.solutionsuite.cn/html-box/vqbtFtT6VWt",
+      "tab": "https://applink.feishu.cn/client/web_app/open?mode=appCenter&appId=cli_a98afe875979500d&width=640&min_width=350&max_width=1000&lk_target_url=https://magic.solutionsuite.cn/html-box/vqbtFtT6VWt"
+    },
+    "last_published": "2026-07-23T08:49:23.531Z"
   }
 }

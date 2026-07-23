@@ -5,6 +5,7 @@
 
 node_modules/
 dist/
+dist-home/
 
 # 本地发现、下载和视觉回归产物
 work/downloads/

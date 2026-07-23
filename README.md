@@ -6,7 +6,11 @@
 
 [打开 Forge3D 妙笔在线版](https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K)
 
+[打开「拾光之家」空间设计版](https://magic.solutionsuite.cn/html-box/vqbtFtT6VWt)
+
 当前精选库包含 86 个真实模型，其中 78 个优先通过妙笔 TOS 加载，并保留固定 GitHub commit 作为来源与回退。
+
+「拾光之家」从精选库中组合 11 件真实家具与数码模型，以 12m × 9m 的程序化住宅壳体呈现客厅、餐厨、卧室和书房；支持房间镜头、昼夜模式、家具来源和逐项许可查看。
 
 ## 运行
 
@@ -16,6 +20,14 @@ npm run dev
 ```
 
 打开 `http://localhost:5173/`。
+
+构建独立的新家单文件妙笔页面：
+
+```bash
+npm run build:home:single
+```
+
+产物位于 `outputs/forge3d-home-magic.html`。
 
 ## 当前能力
 
