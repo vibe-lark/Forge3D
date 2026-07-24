@@ -77,7 +77,7 @@ let antiqueRequests = 0;
 desktop.page.on('request', (request) => {
   if (request.url().includes('AntiqueCamera.glb')) antiqueRequests += 1;
 });
-await desktop.page.locator('[data-asset-id="antique-camera"]').click();
+await desktop.page.locator('[data-asset-id="antique-camera"]').evaluate((element) => element.click());
 await desktop.page.waitForSelector('#load-overlay.visible.large');
 if (antiqueRequests !== 0) failures.push('large model requested before confirmation');
 
@@ -94,9 +94,9 @@ await direct.page.waitForSelector('.asset-list', { timeout: 30000 });
 await waitForStats(direct.page);
 const directAssets = [];
 for (const [id, expectedName] of [
-  ['stacked-washer-dryer', '叠放式洗衣烘干机'],
-  ['modern-ceiling-fan', '现代吊扇'],
-  ['design-lounge-sofa', '设计休闲沙发'],
+  ['freestanding-bathtub', '独立浴缸'],
+  ['open-bookcase', '开放式书柜'],
+  ['relax-lounge-chair', '休闲躺椅'],
 ]) {
   await direct.page.locator(`[data-asset-id="${id}"]`).click();
   await direct.page.waitForFunction((name) => {

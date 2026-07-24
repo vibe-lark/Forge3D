@@ -25,13 +25,13 @@ for (let attempt = 0; attempt < 90; attempt += 1) {
 if (!appFrame) throw new Error('Magic app iframe did not become ready');
 
 const count = await appFrame.locator('[data-asset-id]').count();
-const chineseName = await appFrame.locator('[data-asset-id="stacked-washer-dryer"] strong').textContent();
-await appFrame.locator('[data-asset-id="stacked-washer-dryer"]').click();
+const chineseName = await appFrame.locator('[data-asset-id="freestanding-bathtub"] strong').textContent();
+await appFrame.locator('[data-asset-id="freestanding-bathtub"]').click();
 await appFrame.waitForFunction(() => {
   const name = document.querySelector('#detail-name')?.textContent?.trim();
   const meshes = document.querySelector('#meta-meshes')?.textContent?.trim();
   const source = document.querySelector('#viewer-source')?.textContent || '';
-  return name === '叠放式洗衣烘干机' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
+  return name === '独立浴缸' && meshes && meshes !== '—' && source.includes('妙笔 TOS');
 }, null, { timeout: 90000 });
 
 const result = await appFrame.evaluate(() => {
@@ -51,8 +51,8 @@ const result = await appFrame.evaluate(() => {
 });
 
 const failures = [];
-if (count !== 89) failures.push(`asset count ${count}`);
-if (chineseName?.trim() !== '叠放式洗衣烘干机') failures.push(`Chinese name ${chineseName}`);
+if (count !== 92) failures.push(`asset count ${count}`);
+if (chineseName?.trim() !== '独立浴缸') failures.push(`Chinese name ${chineseName}`);
 if (result.documentScrollHeight !== result.viewportHeight) failures.push('online iframe document scrolls');
 if (!(result.listScrollHeight > result.listClientHeight)) failures.push('online list not independently scrollable');
 if (result.detailBottom > result.viewportHeight) failures.push('online detail below viewport');
