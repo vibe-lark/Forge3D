@@ -94,9 +94,9 @@ await direct.page.waitForSelector('.asset-list', { timeout: 30000 });
 await waitForStats(direct.page);
 const directAssets = [];
 for (const [id, expectedName] of [
-  ['double-bed', '双人床'],
-  ['built-in-refrigerator', '嵌入式冰箱'],
-  ['modern-television', '现代电视机'],
+  ['countertop-blender', '台式搅拌机'],
+  ['countertop-microwave', '台式微波炉'],
+  ['two-slot-toaster', '双槽烤面包机'],
 ]) {
   await direct.page.locator(`[data-asset-id="${id}"]`).click();
   await direct.page.waitForFunction((name) => {

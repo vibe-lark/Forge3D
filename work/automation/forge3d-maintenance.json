@@ -4064,6 +4064,88 @@
         "onlineDocumentScrollHeight": 864, "onlineViewportHeight": 864, "onlineDetailBottom": 846,
         "lastPublished": "2026-07-24T07:05:05.000Z"
       }
+    },
+    {
+      "scheduledAt": "2026-07-24T18:13:49+08:00",
+      "completedAt": "2026-07-24T18:17:35+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "固定 commit 中 Kenney Furniture Kit 2.0 的 License.txt 明确为 CC0；台式搅拌机、台式微波炉与双槽烤面包机的字节、GLB v2、自包含、非 LFS、品牌风险和 Three.js 加载均通过"
+        },
+        { "officialSource": "https://kenney.nl/assets/furniture-kit", "result": "Kenney 官方素材页作为作者与来源补充证据" },
+        { "scope": "existing-assets-without-tos", "result": "7 个素材仍因商标或自定义许可不迁移；琥珀蚊虫等待 multipart complete 认证恢复，本轮未重复已知失败" }
+      ],
+      "addedAssets": [
+        {
+          "id": "countertop-blender", "name": "台式搅拌机", "nameEn": "Countertop Blender", "category": "数码", "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/kitchenBlender.glb", "size": 18728,
+          "repo": "subtiliorars-sys/game-3d-assets", "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/kitchenBlender.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/kitchenBlender.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/kitchenBlender.glb",
+          "license": "CC0-1.0", "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit", "riskNote": "通用低多边形台式搅拌机，无控制文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "countertop-microwave", "name": "台式微波炉", "nameEn": "Countertop Microwave", "category": "数码", "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/kitchenMicrowave.glb", "size": 11248,
+          "repo": "subtiliorars-sys/game-3d-assets", "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/kitchenMicrowave.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/kitchenMicrowave.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/kitchenMicrowave.glb",
+          "license": "CC0-1.0", "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit", "riskNote": "通用低多边形台式微波炉，无控制面板文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "two-slot-toaster", "name": "双槽烤面包机", "nameEn": "Two-slot Toaster", "category": "数码", "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/toaster.glb", "size": 14924,
+          "repo": "subtiliorars-sys/game-3d-assets", "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/toaster.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/toaster.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/toaster.glb",
+          "license": "CC0-1.0", "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit", "riskNote": "通用低多边形双槽烤面包机，无控制文字、Logo 或现实品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [],
+      "migrationBlocked": [
+        { "id": "mosquito-in-amber", "reason": "24,229,904 字节且许可合规；连续多轮 multipart complete 返回未登录或 token 无效，等待服务端状态变化" }
+      ],
+      "skippedCandidates": [
+        { "name": "概念跑车、古董相机、计时腕表、牛奶运输车、太阳镜、玻璃烛台、炭火盆", "reason": "商标元素或自定义许可风险，不迁移 TOS" },
+        { "name": "Furniture Kit 其余 CC0 候选", "reason": "本轮新增上限为 3 个，留待后续；本轮没有因体积、格式或解析失败而拒绝的新增候选" }
+      ],
+      "changes": [
+        "新增台式搅拌机、台式微波炉与双槽烤面包机",
+        "使用固定且可去重的 key 将 3 个自包含 GLB 上传到妙笔 TOS",
+        "README 更新为 98 个素材、90 个 TOS 优先",
+        "未修改已确认布局、视觉或主要交互"
+      ],
+      "validation": {
+        "buildSingle": true, "dataAssets": 98, "tosAssets": 90, "duplicates": 0,
+        "singleHtmlBytes": 810357,
+        "newAssetFiles": { "models": 3, "httpStatus": 200, "byteExact": true, "nonLfs": true, "glbVersion": "2.0", "selfContained": true },
+        "testedExistingAsset": { "id": "clear-coat-car-paint", "meshes": 1, "triangles": 3072, "delivery": "妙笔 TOS" },
+        "testedAssets": [
+          { "id": "countertop-blender", "meshes": 4, "triangles": 246, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "countertop-microwave", "meshes": 6, "triangles": 152, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "two-slot-toaster", "meshes": 2, "triangles": 220, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": { "id": "platformer-robot", "source": "jsDelivr 回退", "filename": "character.glb" },
+        "packageDownload": true, "largeModelConfirmation": true,
+        "desktop": { "viewportHeight": 864, "documentScrollHeight": 864, "detailBottom": 846, "listClientHeight": 341, "listScrollHeight": 7442 },
+        "mobile": { "viewportHeight": 844, "documentScrollHeight": 1988, "listClientHeight": 390, "listScrollHeight": 9506, "bodyOverflow": "auto" },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K", "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K", "status": "success", "onlineVerified": true,
+        "onlineAssetCount": 98, "onlineTestedAsset": "countertop-blender", "onlineMeshes": 4, "onlineTriangles": "246",
+        "onlineDocumentScrollHeight": 864, "onlineViewportHeight": 864, "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-24T10:17:35.000Z"
+      }
     }
   ]
 }
