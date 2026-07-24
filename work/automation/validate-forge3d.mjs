@@ -94,9 +94,9 @@ await direct.page.waitForSelector('.asset-list', { timeout: 30000 });
 await waitForStats(direct.page);
 const directAssets = [];
 for (const [id, expectedName] of [
-  ['freestanding-bathtub', '独立浴缸'],
-  ['open-bookcase', '开放式书柜'],
-  ['relax-lounge-chair', '休闲躺椅'],
+  ['double-bed', '双人床'],
+  ['built-in-refrigerator', '嵌入式冰箱'],
+  ['modern-television', '现代电视机'],
 ]) {
   await direct.page.locator(`[data-asset-id="${id}"]`).click();
   await direct.page.waitForFunction((name) => {

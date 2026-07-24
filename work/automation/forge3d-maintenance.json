@@ -3977,6 +3977,93 @@
         "onlineDetailBottom": 846,
         "lastPublished": "2026-07-24T02:11:49.000Z"
       }
+    },
+    {
+      "scheduledAt": "2026-07-24T15:01:22+08:00",
+      "completedAt": "2026-07-24T15:05:05+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "固定 commit 中 Kenney Furniture Kit 2.0 的 License.txt 明确为 CC0；双人床、嵌入式冰箱与现代电视机的字节、GLB v2、自包含、非 LFS、品牌风险和 Three.js 加载均通过"
+        },
+        {
+          "officialSource": "https://kenney.nl/assets/furniture-kit",
+          "result": "Kenney 官方素材页作为作者与来源补充证据"
+        },
+        {
+          "scope": "existing-assets-without-tos",
+          "result": "7 个素材仍因商标或自定义许可不迁移；琥珀蚊虫等待 multipart complete 认证恢复，本轮未重复已知失败"
+        }
+      ],
+      "addedAssets": [
+        {
+          "id": "double-bed", "name": "双人床", "nameEn": "Double Bed", "category": "家居", "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/bedDouble.glb", "size": 23368,
+          "repo": "subtiliorars-sys/game-3d-assets", "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/bedDouble.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/bedDouble.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/bedDouble.glb",
+          "license": "CC0-1.0", "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit", "riskNote": "通用低多边形双人床，无织物文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "built-in-refrigerator", "name": "嵌入式冰箱", "nameEn": "Built-in Refrigerator", "category": "家居", "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/kitchenFridgeBuiltIn.glb", "size": 22616,
+          "repo": "subtiliorars-sys/game-3d-assets", "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/kitchenFridgeBuiltIn.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/kitchenFridgeBuiltIn.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/kitchenFridgeBuiltIn.glb",
+          "license": "CC0-1.0", "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit", "riskNote": "通用低多边形嵌入式冰箱，无控制面板文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "modern-television", "name": "现代电视机", "nameEn": "Modern Television", "category": "数码", "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/televisionModern.glb", "size": 6368,
+          "repo": "subtiliorars-sys/game-3d-assets", "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/televisionModern.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/televisionModern.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/televisionModern.glb",
+          "license": "CC0-1.0", "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit", "riskNote": "通用低多边形平板电视机，无屏幕文字、Logo 或现实品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [],
+      "migrationBlocked": [
+        { "id": "mosquito-in-amber", "reason": "24,229,904 字节且许可合规；连续多轮 multipart complete 返回未登录或 token 无效，等待服务端状态变化" }
+      ],
+      "skippedCandidates": [
+        { "name": "概念跑车、古董相机、计时腕表、牛奶运输车、太阳镜、玻璃烛台、炭火盆", "reason": "商标元素或自定义许可风险，不迁移 TOS" },
+        { "name": "Furniture Kit 其余 CC0 候选", "reason": "本轮新增上限为 3 个，留待后续；本轮没有因体积、格式或解析失败而拒绝的新增候选" }
+      ],
+      "changes": [
+        "新增双人床、嵌入式冰箱与现代电视机",
+        "使用固定且可去重的 key 将 3 个自包含 GLB 上传到妙笔 TOS",
+        "README 更新为 95 个素材、87 个 TOS 优先",
+        "未修改已确认布局、视觉或主要交互"
+      ],
+      "validation": {
+        "buildSingle": true, "dataAssets": 95, "tosAssets": 87, "duplicates": 0,
+        "newAssetFiles": { "models": 3, "httpStatus": 200, "byteExact": true, "nonLfs": true, "glbVersion": "2.0", "selfContained": true },
+        "testedExistingAsset": { "id": "clear-coat-car-paint", "meshes": 1, "triangles": 3072, "delivery": "妙笔 TOS" },
+        "testedAssets": [
+          { "id": "double-bed", "meshes": 7, "triangles": 264, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "built-in-refrigerator", "meshes": 10, "triangles": 268, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "modern-television", "meshes": 2, "triangles": 72, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": { "id": "platformer-robot", "source": "jsDelivr 回退", "filename": "character.glb" },
+        "packageDownload": true, "largeModelConfirmation": true,
+        "desktop": { "viewportHeight": 864, "documentScrollHeight": 864, "detailBottom": 846, "listClientHeight": 341, "listScrollHeight": 7214 },
+        "mobile": { "viewportHeight": 844, "documentScrollHeight": 1988, "listClientHeight": 390, "listScrollHeight": 9215, "bodyOverflow": "auto" },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K", "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K", "status": "success", "onlineVerified": true,
+        "onlineAssetCount": 95, "onlineTestedAsset": "double-bed", "onlineMeshes": 7, "onlineTriangles": "264",
+        "onlineDocumentScrollHeight": 864, "onlineViewportHeight": 864, "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-24T07:05:05.000Z"
+      }
     }
   ]
 }
