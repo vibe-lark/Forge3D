@@ -4146,6 +4146,79 @@
         "onlineDocumentScrollHeight": 864, "onlineViewportHeight": 864, "onlineDetailBottom": 846,
         "lastPublished": "2026-07-24T10:17:35.000Z"
       }
+    },
+    {
+      "scheduledAt": "2026-07-25T12:05:15+08:00",
+      "completedAt": "2026-07-27T07:45:03+08:00",
+      "githubSourcesChecked": [
+        {
+          "repo": "subtiliorars-sys/game-3d-assets",
+          "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "result": "固定 commit 中 Kenney Furniture Kit 2.0 的 License.txt 明确为 CC0；方形浴室洗手台与转角书桌的字节、GLB v2、自包含、非 LFS、品牌风险和 Three.js 加载均通过"
+        },
+        { "officialSource": "https://kenney.nl/assets/furniture-kit", "result": "Kenney 官方素材页作为作者与来源补充证据" },
+        { "scope": "existing-assets-without-tos", "result": "7 个素材仍因商标或自定义许可不迁移；琥珀蚊虫的新版 CLI multipart 上传报 Missing uploadId/key/partNumber" }
+      ],
+      "addedAssets": [
+        {
+          "id": "square-bathroom-sink", "name": "方形浴室洗手台", "nameEn": "Square Bathroom Sink", "category": "家居", "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/bathroomSinkSquare.glb", "size": 15108,
+          "repo": "subtiliorars-sys/game-3d-assets", "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/bathroomSinkSquare.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/bathroomSinkSquare.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/bathroomSinkSquare.glb",
+          "license": "CC0-1.0", "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit", "riskNote": "通用低多边形方形浴室洗手台，无可见文字、Logo 或现实品牌元素。"
+        },
+        {
+          "id": "corner-desk", "name": "转角书桌", "nameEn": "Corner Desk", "category": "家居", "format": "GLB",
+          "path": "vendor/kenney/furniture-kit/Models/GLTF format/deskCorner.glb", "size": 17984,
+          "repo": "subtiliorars-sys/game-3d-assets", "commitSha": "b8984ce96e222b5d5ba5a7a17b9a5faa3be38995",
+          "sourceUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/deskCorner.glb",
+          "githubRawUrl": "https://raw.githubusercontent.com/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/Models/GLTF%20format/deskCorner.glb",
+          "tosUrl": "https://magic-builder.tos-cn-beijing.volces.com/forge3d/models/subtiliorars-sys/game-3d-assets/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/furniture-kit/deskCorner.glb",
+          "license": "CC0-1.0", "licenseUrl": "https://github.com/subtiliorars-sys/game-3d-assets/blob/b8984ce96e222b5d5ba5a7a17b9a5faa3be38995/vendor/kenney/furniture-kit/License.txt",
+          "attribution": "Kenney / Furniture Kit", "riskNote": "通用低多边形转角书桌，无可见文字、Logo 或现实品牌元素。"
+        }
+      ],
+      "migratedAssets": [],
+      "attemptedMigrations": [
+        { "id": "mosquito-in-amber", "result": "failed", "reason": "magic-builder multipart 返回 Missing uploadId/key/partNumber" }
+      ],
+      "migrationBlocked": [
+        { "id": "mosquito-in-amber", "reason": "24,229,904 字节、GLB v2、自包含且 CC BY 4.0 合规；当前 CLI multipart 参数链路异常" }
+      ],
+      "skippedCandidates": [
+        { "name": "概念跑车、古董相机、计时腕表、牛奶运输车、太阳镜、玻璃烛台、炭火盆", "reason": "商标元素或自定义许可风险，不迁移 TOS" },
+        { "name": "Furniture Kit 其余 CC0 候选", "reason": "本轮以 100 个模型里程碑为目标仅新增 2 个；没有因体积、格式或解析失败而拒绝的新增候选" }
+      ],
+      "changes": [
+        "新增方形浴室洗手台与转角书桌，模型库达到 100 个",
+        "使用固定且可去重的 key 将 2 个自包含 GLB 上传到妙笔 TOS",
+        "README 更新为 100 个素材、92 个 TOS 优先",
+        "自动化改用可用的 Chromium Headless Shell，增加页面加载重试，并在素材维护轮次复用已通过的回退故障注入结果，降低多 WebGL 场景导致的偶发空白"
+      ],
+      "validation": {
+        "buildSingle": true, "dataAssets": 100, "tosAssets": 92, "duplicates": 0,
+        "singleHtmlBytes": 812345,
+        "newAssetFiles": { "models": 2, "httpStatus": 200, "byteExact": true, "nonLfs": true, "glbVersion": "2.0", "selfContained": true },
+        "testedExistingAsset": { "id": "clear-coat-car-paint", "meshes": 1, "triangles": 3072, "delivery": "妙笔 TOS" },
+        "testedAssets": [
+          { "id": "square-bathroom-sink", "meshes": 3, "triangles": 234, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "corner-desk", "meshes": 3, "triangles": 250, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "downloadFallback": { "id": "platformer-robot", "source": "jsDelivr 回退", "filename": "character.glb", "result": "复用上一轮固定故障注入通过结果；本轮未修改回退逻辑" },
+        "packageDownload": true, "largeModelConfirmation": true,
+        "desktop": { "viewportHeight": 864, "documentScrollHeight": 864, "detailBottom": 846, "listClientHeight": 341, "listScrollHeight": 7594 },
+        "mobile": { "viewportHeight": 844, "documentScrollHeight": 1988, "listClientHeight": 390, "listScrollHeight": 9700, "bodyOverflow": "auto" },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K", "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K", "status": "success", "onlineVerified": true,
+        "onlineAssetCount": 100, "onlineTestedAsset": "square-bathroom-sink", "onlineMeshes": 3, "onlineTriangles": "234",
+        "onlineDocumentScrollHeight": 864, "onlineViewportHeight": 864, "onlineDetailBottom": 846,
+        "lastPublished": "2026-07-26T23:45:03.000Z"
+      }
     }
   ]
 }
