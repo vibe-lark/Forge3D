@@ -4219,6 +4219,49 @@
         "onlineDocumentScrollHeight": 864, "onlineViewportHeight": 864, "onlineDetailBottom": 846,
         "lastPublished": "2026-07-26T23:45:03.000Z"
       }
+    },
+    {
+      "scheduledAt": "2026-08-02T22:55:00+08:00",
+      "completedAt": "2026-08-02T23:24:20+08:00",
+      "githubSourcesChecked": [
+        { "scope": "existing-assets-without-tos", "result": "7 个素材仍因商标或自定义许可风险不迁移；琥珀蚊虫 24,229,904 字节且 CC BY 4.0 合规，但没有 Magic Builder multipart 修复证据，本轮未重试" },
+        { "scope": "delivery-health", "result": "100 个模型共 291 个唯一 TOS、jsDelivr 与 GitHub Raw 地址全部通过 HTTP 可达性检查" }
+      ],
+      "addedAssets": [],
+      "migratedAssets": [],
+      "attemptedMigrations": [],
+      "migrationBlocked": [
+        { "id": "mosquito-in-amber", "reason": "24,229,904 字节、GLB v2、自包含且 CC BY 4.0 合规；等待 Magic Builder multipart 参数链路的明确修复证据" }
+      ],
+      "skippedCandidates": [
+        { "name": "概念跑车、古董相机、计时腕表、牛奶运输车、太阳镜、玻璃烛台、炭火盆", "reason": "商标元素或自定义许可风险，不迁移 TOS" },
+        { "name": "新的低增量素材候选", "reason": "精选库已达 100 个，单文件 812,345 字节接近 900,000 上限；本轮不做低价值数量扩张，没有因体积、格式或解析失败而拒绝的新候选" }
+      ],
+      "changes": [
+        "修复线上妙笔验证对外层 DOMContentLoaded 的脆弱依赖，改为等待导航 commit 后识别内部应用 iframe",
+        "线上验证自动选择可用 Chromium，并为瞬时导航与 iframe 就绪增加 3 次重试",
+        "使用 DOM 点击验证独立滚动列表中的方形浴室洗手台，避免 Playwright 可见性等待误判",
+        "未修改产品布局、视觉、模型数据或主要交互"
+      ],
+      "validation": {
+        "buildSingle": true, "dataAssets": 100, "tosAssets": 92, "duplicates": 0, "singleHtmlBytes": 812345,
+        "deliveryUrls": { "unique": 291, "passed": 291, "failed": 0 },
+        "testedExistingAsset": { "id": "clear-coat-car-paint", "meshes": 1, "triangles": 3072, "delivery": "妙笔 TOS" },
+        "testedAssets": [
+          { "id": "square-bathroom-sink", "meshes": 3, "triangles": 234, "delivery": "妙笔 TOS", "realNetwork": true },
+          { "id": "corner-desk", "meshes": 3, "triangles": 250, "delivery": "妙笔 TOS", "realNetwork": true }
+        ],
+        "desktop": { "viewportHeight": 864, "documentScrollHeight": 864, "detailBottom": 846, "listClientHeight": 341, "listScrollHeight": 7594 },
+        "mobile": { "viewportHeight": 844, "documentScrollHeight": 1988, "listClientHeight": 390, "listScrollHeight": 9700, "bodyOverflow": "auto" },
+        "onlineVerifierRegression": { "reproduced": true, "symptom": "外层页面 HTTP 200，但等待 DOMContentLoaded 连续两次超时；commit 后内部应用 iframe 可正常加载 100 个素材" },
+        "pageErrors": []
+      },
+      "publish": {
+        "appId": "vpwMy2lUl3K", "url": "https://magic.solutionsuite.cn/html-box/vpwMy2lUl3K", "status": "success", "onlineVerified": true,
+        "onlineAssetCount": 100, "onlineTestedAsset": "square-bathroom-sink", "onlineMeshes": 3, "onlineTriangles": "234",
+        "onlineDocumentScrollHeight": 864, "onlineViewportHeight": 864, "onlineDetailBottom": 846,
+        "lastPublished": "2026-08-02T15:22:00.000Z"
+      }
     }
   ]
 }
